@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed": "#001f24", "surface-container-lowest": "#050d25", "on-surface": "#dbe1ff", "secondary-fixed-dim": "#bdc5e9", "outline-variant": "#3b494c", "surface-tint": "#00daf3", "inverse-on-surface": "#282f49", "on-primary": "#00363d", "surface-container-high": "#212942", "secondary": "#bdc5e9", "tertiary": "#ffe9d6", "tertiary-fixed-dim": "#ffb868", "on-background": "#dbe1ff", "inverse-primary": "#006875", "primary-fixed": "#9cf0ff", "tertiary-container": "#ffc689", "on-tertiary-container": "#814d00", "surface-container-low": "#131a33", "on-primary-container": "#00626e", "secondary-fixed": "#dbe1ff", "secondary-container": "#3d4664", "on-tertiary-fixed": "#2b1700", "background": "#0a122a", "on-tertiary-fixed-variant": "#673d00", "inverse-surface": "#dbe1ff", "outline": "#849396", "error-container": "#93000a", "surface-variant": "#2c344d", "on-primary-fixed-variant": "#004f58", "primary-fixed-dim": "#00daf3", "surface": "#0a122a", "on-surface-variant": "#bac9cc", "on-error-container": "#ffdad6", "error": "#ffb4ab", "tertiary-fixed": "#ffddbb", "primary": "#c3f5ff", "surface-dim": "#0a122a", "on-secondary-fixed-variant": "#3d4664", "on-secondary": "#262f4c", "surface-container": "#171e37", "on-secondary-container": "#abb4d7", "on-tertiary": "#482900", "on-error": "#690005", "primary-container": "#00e5ff", "on-secondary-fixed": "#111a36", "surface-bright": "#313852", "surface-container-highest": "#2c344d" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "margin-mobile": "1rem", "gutter-mobile": "1rem", "margin": "2.5rem", "space-md": "1rem", "gutter": "1.5rem" }, "fontFamily": { "display-hero-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "formula-md": ["JetBrains Mono"], "body-lg": ["Plus Jakarta Sans"], "formula-lg": ["JetBrains Mono"], "label-mono": ["JetBrains Mono"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "caption": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"] }, "fontSize": { "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "formula-md": ["15px", { "lineHeight": "22px", "letterSpacing": "0.005em", "fontWeight": "500" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "formula-lg": ["20px", { "lineHeight": "28px", "letterSpacing": "0.01em", "fontWeight": "500" }], "label-mono": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "500" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "caption": ["12px", { "lineHeight": "16px", "fontWeight": "500" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm group focus:outline-none" data-path="trang-chu" href="#"><img alt="PhysiX Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX5f9k_6rNVTypSA7getS_K9B8WEDUeiQVzZS3WAJJneSe6xwIJb59dOXAD1-xfOXZiwnTWAN_OfHNaPznHlW7BFCG_tJx0niWaeyyzhcuBUQQgXtAOXDaWw9dxCtSV6OoX7TdYxUtQRRAO7nW50DY2alL9ZPifJ6nkcg8CwO2uQ8s4A0v8uJKxKDeJcr7M4ZK0Pe5LwTykYjqPuM8xqNBjfhRUs7BlGlrgilLe17UUdaUqZbjV1k5MA"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-primary font-bold">PhysiX</span><span class="font-label-mono text-label-mono text-on-surface-variant tracking-wider uppercase -mt-1">Vật Lý THPT</span></div></a><nav class="hidden xl:flex items-center gap-space-md" data-active-classes="text-primary-container font-semibold"><a class="px-space-sm py-space-xs font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="trang-chu" href="#">Trang chủ</a><div class="relative group py-space-xs"><button class="flex items-center gap-1 px-space-sm font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors focus:outline-none" type="button"><span>Chương trình học</span><span class="material-symbols-outlined text-[18px] transition-transform duration-200 group-hover:rotate-180">expand_more</span></button><div class="absolute left-0 top-full mt-2 hidden group-hover:flex flex-col w-56 p-space-xs rounded-xl bg-surface-container-high/95 backdrop-blur-xl shadow-[0_8px_32px_-4px_rgba(3,7,18,0.7)] z-50"><a class="flex flex-col px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-all" data-path="vat-ly-lop-10" href="#"><span class="font-title-md text-title-md text-on-surface">Vật Lý 10</span><span class="font-caption text-caption text-on-surface-variant">Cơ học, Động học &amp; Năng lượng</span></a><a class="flex flex-col px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-all" data-path="vat-ly-lop-11" href="#"><span class="font-title-md text-title-md text-on-surface">Vật Lý 11</span><span class="font-caption text-caption text-on-surface-variant">Điện từ trường, Dao động &amp; Sóng</span></a><a class="flex flex-col px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-all" data-path="vat-ly-lop-12" href="#"><span class="font-title-md text-title-md text-on-surface">Vật Lý 12</span><span class="font-caption text-caption text-on-surface-variant">Lượng tử, Hạt nhân &amp; Sóng điện từ</span></a></div></div><a class="px-space-sm py-space-xs font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="thi-nghiem-ao" href="#">Thí nghiệm ảo</a><a class="px-space-sm py-space-xs font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="luyen-thi-thptqg" href="#">Luyện thi THPTQG</a><a class="px-space-sm py-space-xs font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="tien-do-hoc-tap" href="#">Tiến độ học tập</a></nav></div><div class="flex items-center gap-space-md"><div class="relative hidden md:block w-72"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px] pointer-events-none">search</span><input class="w-full h-10 pl-10 pr-4 bg-surface-container-low text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-xl transition-all focus:outline-none focus:bg-surface-container focus:ring-1 focus:ring-primary-container" placeholder="Tìm công thức, bài giảng..." type="search"/><kbd class="absolute right-2.5 top-1/2 -translate-y-1/2 font-label-mono text-[10px] text-outline bg-surface-container-high px-1.5 py-0.5 rounded">⌘K</kbd></div><div class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-full bg-surface-container-low"><span class="material-symbols-outlined text-tertiary-fixed-dim text-[20px]">local_fire_department</span><span class="font-label-mono text-label-mono font-bold text-tertiary">7 ngày</span></div><button aria-label="Thông báo bài học và kỳ thi" class="relative p-2 rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-primary-container animate-pulse"></span></button><div class="flex items-center gap-space-sm pl-space-xs"><div class="flex flex-col text-right hidden sm:flex"><span class="font-title-md text-title-md text-on-surface leading-tight">Minh Anh</span><span class="font-caption text-caption text-secondary">Lớp 12A1</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-container/40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4U0FDbcMbYWHQiTfgJMBxk3n6MtTzBUyphBuJpi3Y2MPhOjARIjyYiRATHhaOyBkoJIUJ7XAgdmAftrDndwNBk0w3p77O6_0NPotxMlBrk5-ZkdMMGeHxaV4IZt6RqZOef7zXDdvESCHYZqZaIQpeGLi6Vr5TK0yx3zTI4rG6zoko9njX_plNTcps5EABjILVaaAH1FXsFCI27c7S6b2cbH_BJjsVO2flrHUNqk9iJ1-MXdyiZeeaOA"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Hero Section -->
+<section class="relative w-full overflow-hidden px-margin py-space-xl lg:py-28 bg-surface">
+<!-- Ambient glow gradients -->
+<div class="pointer-events-none absolute -top-40 -left-40 w-96 h-96 rounded-full bg-primary-container/10 blur-[120px]"></div>
+<div class="pointer-events-none absolute top-1/3 -right-20 w-[30rem] h-[30rem] rounded-full bg-surface-tint/10 blur-[140px]"></div>
+<div class="pointer-events-none absolute -bottom-20 left-1/3 w-80 h-80 rounded-full bg-tertiary-container/10 blur-[100px]"></div>
+<div class="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Column: Copy & CTAs -->
+<div class="lg:col-span-7 flex flex-col gap-space-md z-10">
+<div class="inline-flex items-center gap-space-xs self-start px-space-sm py-1 rounded-full bg-surface-container-high shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-ping"></span>
+<span class="font-label-mono text-label-mono text-primary font-semibold uppercase tracking-wider">Chương trình GDPT 2018 Mới</span>
+<span class="font-caption text-caption text-outline-variant">|</span>
+<span class="font-caption text-caption text-secondary">3 Bộ SGK Chuẩn</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-on-surface font-extrabold tracking-tight">
+          Khám Phá Thế Giới <br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-container via-primary to-secondary">Vật Lý Tương Tác</span>
+<span class="text-primary-container">.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+          Chinh phục điểm 9+ kỳ thi THPT Quốc Gia với 500+ thí nghiệm mô phỏng, ngân hàng bài tập thông minh phân tầng và hệ thống bài giảng trực quan bám sát SGK Kết Nối Tri Thức, Cánh Diều, Chân Trời Sáng Tạo.
+        </p>
+<!-- CTA Action Cluster -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="px-space-lg py-3 rounded-lg bg-primary-container text-on-primary-fixed font-title-md text-title-md font-bold shadow-lg shadow-primary-container/20 hover:shadow-primary-container/40 hover:scale-[1.02] transition-all flex items-center gap-space-xs" href="#">
+<span>Bắt đầu học thử miễn phí</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<a class="px-space-lg py-3 rounded-lg bg-surface-container text-primary font-title-md text-title-md hover:bg-surface-container-high hover:text-primary-container transition-all flex items-center gap-space-xs shadow-sm" href="#">
+<span class="material-symbols-outlined text-[20px] text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">science</span>
+<span>Khám phá phòng thí nghiệm ảo</span>
+</a>
+</div>
+<!-- Social Validation Counters -->
+<div class="grid grid-cols-3 gap-space-md pt-space-lg mt-space-xs max-w-xl">
+<div class="flex flex-col">
+<span class="font-display-hero-mobile text-display-hero-mobile font-bold text-on-surface">120K+</span>
+<span class="font-caption text-caption text-on-surface-variant">Học sinh chuyên cần</span>
+</div>
+<div class="flex flex-col">
+<span class="font-display-hero-mobile text-display-hero-mobile font-bold text-primary-container">9.2</span>
+<span class="font-caption text-caption text-on-surface-variant">Điểm trung bình thi thử</span>
+</div>
+<div class="flex flex-col">
+<span class="font-display-hero-mobile text-display-hero-mobile font-bold text-tertiary-fixed-dim">100%</span>
+<span class="font-caption text-caption text-on-surface-variant">Mô phỏng chuẩn vật lý</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Interactive Simulator Preview HUD -->
+<div class="lg:col-span-5 relative mt-space-lg lg:mt-0">
+<!-- Main Telemetry Sandbox Card -->
+<div class="relative w-full rounded-xl bg-surface-container-low shadow-2xl overflow-hidden p-space-md flex flex-col gap-space-md">
+<!-- Glass Header Bar -->
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="w-3 h-3 rounded-full bg-error"></span>
+<span class="w-3 h-3 rounded-full bg-tertiary-container"></span>
+<span class="w-3 h-3 rounded-full bg-primary-container"></span>
+<span class="font-label-mono text-label-mono text-secondary ml-space-xs">OSCILLOSCOPE_V2.0</span>
+</div>
+<span class="px-space-xs py-0.5 rounded font-label-mono text-caption bg-surface-container-high text-primary-container">CH1: LIVE SENSOR</span>
+</div>
+<!-- Formula Theorem Card -->
+<div class="p-space-sm rounded-lg bg-surface-container-high relative overflow-hidden">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-primary-container"></div>
+<div class="flex items-center justify-between mb-1">
+<span class="font-caption text-caption text-secondary uppercase font-semibold">Phương trình dao động điều hòa</span>
+<span class="material-symbols-outlined text-[16px] text-primary cursor-pointer hover:scale-110 transition-transform" title="Sao chép LaTeX">content_copy</span>
+</div>
+<div class="font-formula-lg text-formula-lg text-primary tracking-wide">
+              x(t) = A · cos(ωt + φ)
+            </div>
+<div class="flex items-center gap-space-md mt-2 font-label-mono text-caption text-on-surface-variant">
+<span>A = 6.0 cm</span>
+<span>ω = 4π rad/s</span>
+<span>φ = -π/3 rad</span>
+</div>
+</div>
+<!-- Live Waveform Canvas / SVG Animation Display -->
+<div class="relative w-full h-44 rounded-lg bg-surface-container-lowest overflow-hidden flex items-center justify-center">
+<!-- Oscilloscope grid lines -->
+<svg class="absolute inset-0 w-full h-full text-surface-container-high opacity-40 pointer-events-none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="24" id="oscilloscope-grid" patternunits="userSpaceOnUse" width="24">
+<path d="M 24 0 L 0 0 0 24" fill="none" stroke="currentColor" stroke-width="0.5"></path>
+</pattern>
+</defs>
+<rect fill="url(#oscilloscope-grid)" height="100%" width="100%"></rect>
+<line stroke="currentColor" stroke-dasharray="2 2" stroke-width="1.2" x1="0" x2="100%" y1="50%" y2="50%"></line>
+<line stroke="currentColor" stroke-dasharray="2 2" stroke-width="1.2" x1="50%" x2="50%" y1="0" y2="100%"></line>
+</svg>
+<!-- Dynamic sine wave path -->
+<svg class="w-full h-full relative z-10" preserveaspectratio="none" viewbox="0 0 400 160">
+<!-- Glow shadow wave -->
+<path class="text-primary-container opacity-30" d="M 0 80 Q 50 15, 100 80 T 200 80 T 300 80 T 400 80" fill="none" stroke="currentColor" stroke-width="6"></path>
+<!-- Sharp wave -->
+<path class="text-primary-container" d="M 0 80 Q 50 15, 100 80 T 200 80 T 300 80 T 400 80" fill="none" stroke="currentColor" stroke-width="2.5"></path>
+<!-- Wave particle node highlights -->
+<circle class="fill-primary-container shadow-md" cx="50" cy="15" r="4"></circle>
+<circle class="fill-tertiary-fixed-dim" cx="150" cy="145" r="4"></circle>
+<circle class="fill-primary-container" cx="250" cy="15" r="4"></circle>
+<circle class="fill-tertiary-fixed-dim" cx="350" cy="145" r="4"></circle>
+</svg>
+<!-- Telemetry readout floating badge -->
+<div class="absolute bottom-2 right-2 px-space-xs py-0.5 rounded bg-surface-container/90 backdrop-blur-md font-label-mono text-[11px] text-tertiary font-medium">
+              f = 2.0 Hz • T = 0.50 s
+            </div>
+</div>
+<!-- Interactive Micro-sliders -->
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<div class="flex items-center justify-between text-body-sm font-body-sm">
+<span class="text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary-container">tune</span>
+                Biên độ dao động (A)
+              </span>
+<span class="font-label-mono text-label-mono text-primary font-bold" id="amp-display">6.0 cm</span>
+</div>
+<div class="relative w-full h-2 rounded-full bg-surface-container-high flex items-center">
+<div class="h-full rounded-full bg-primary-container w-[60%]"></div>
+<div class="w-4 h-4 rounded-full bg-primary-container -ml-2 cursor-grab shadow-md"></div>
+</div>
+</div>
+<!-- Simulation Footer actions -->
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-2">
+<button class="px-space-xs py-1 rounded bg-surface-container-high text-on-surface hover:text-primary transition-colors flex items-center gap-1 font-label-mono text-[11px]" type="button">
+<span class="material-symbols-outlined text-[14px]">pause</span> Tạm dừng
+              </button>
+<button class="px-space-xs py-1 rounded bg-surface-container-high text-on-surface hover:text-primary transition-colors flex items-center gap-1 font-label-mono text-[11px]" type="button">
+<span class="material-symbols-outlined text-[14px]">restart_alt</span> Khởi tạo lại
+              </button>
+</div>
+<span class="font-label-mono text-caption text-secondary">FPS: 60.0 • Realtime</span>
+</div>
+</div>
+<!-- Overlapping floating achievement pill -->
+<div class="absolute -bottom-6 -left-6 rounded-xl bg-surface-container-high/95 backdrop-blur-md p-space-sm shadow-xl flex items-center gap-space-sm hidden sm:flex">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface leading-snug">Khớp chuẩn Bộ GD&amp;ĐT</span>
+<span class="font-caption text-caption text-secondary">Đầy đủ 100% dạng bài thi tốt nghiệp</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Lộ Trình Học Tập Phân Tầng Theo Khối Lớp -->
+<section class="w-full px-margin py-space-xl bg-surface-container-lowest">
+<div class="w-full max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-mono text-label-mono uppercase tracking-widest text-primary-container">Khung chương trình mới</span>
+<span class="w-8 h-[1px] bg-outline-variant"></span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">Lộ Trình Tối Ưu Từng Khối Lớp</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">Học sâu hiểu bản chất từ thực nghiệm trực quan, tự tin bứt phá điểm số trên lớp và trong các kỳ thi đánh giá tư duy.</p>
+</div>
+<!-- Grade Selector Tabs -->
+<div class="flex p-1 rounded-xl bg-surface-container-low self-start">
+<button class="px-space-md py-2 rounded-lg bg-primary-container text-on-primary-fixed font-title-md text-title-md font-bold shadow-md">Tất cả</button>
+<button class="px-space-md py-2 rounded-lg text-on-surface-variant hover:text-on-surface font-title-md text-title-md transition-colors">Lớp 10</button>
+<button class="px-space-md py-2 rounded-lg text-on-surface-variant hover:text-on-surface font-title-md text-title-md transition-colors">Lớp 11</button>
+<button class="px-space-md py-2 rounded-lg text-on-surface-variant hover:text-on-surface font-title-md text-title-md transition-colors">Lớp 12 (Trọng tâm)</button>
+</div>
+</div>
+<!-- 3 Grade Cards Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter pt-space-xs">
+<!-- Grade 10 Card -->
+<div class="rounded-xl bg-surface-container-low hover:bg-surface-container p-space-lg flex flex-col justify-between transition-all duration-300 shadow-md group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-1 rounded-full font-label-mono text-label-mono bg-surface-container-high text-primary font-semibold">Khối 10: Nền tảng STEM</span>
+<span class="font-label-mono text-caption text-secondary">32 Chuyên đề</span>
+</div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary-container group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">speed</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Cơ Học &amp; Động Lực Học</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Làm chủ Chuyển động biến đổi đều, Định luật Newton, Năng lượng, Công cơ học và Định luật bảo toàn động lượng.</p>
+<!-- Formula snippet badge -->
+<div class="p-space-xs rounded bg-surface-container-high font-formula-md text-formula-md text-primary flex items-center justify-between">
+<span>F = m · a</span>
+<span class="font-caption text-caption text-secondary">Định luật II</span>
+</div>
+<div class="flex flex-col gap-1.5 pt-2 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Phân tích lực tương tác 2D trực quan</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Mô phỏng va chạm đàn hồi &amp; mềm</span>
+</div>
+</div>
+</div>
+<div class="pt-space-lg flex items-center justify-between">
+<span class="font-title-md text-title-md text-primary font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+              Học ngay <span class="material-symbols-outlined text-[18px]">east</span>
+</span>
+<span class="font-label-mono text-caption text-outline">SGK 2018</span>
+</div>
+</div>
+<!-- Grade 11 Card (Highlighted Peak) -->
+<div class="rounded-xl bg-surface-container-high relative p-space-lg flex flex-col justify-between transition-all duration-300 shadow-xl group">
+<div class="absolute -top-3 right-6 px-space-xs py-0.5 rounded-full bg-tertiary-container text-on-tertiary-container font-label-mono text-[11px] font-bold uppercase shadow-sm">
+            Nền Tảng Thi THPTQG
+          </div>
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-1 rounded-full font-label-mono text-label-mono bg-surface-container-highest text-primary-container font-semibold">Khối 11: Dao Động &amp; Sóng</span>
+<span class="font-label-mono text-caption text-secondary">48 Chuyên đề</span>
+</div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-highest flex items-center justify-center text-tertiary-fixed-dim group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">graphic_eq</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Dao Động &amp; Điện Từ Trường</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Dao động điều hòa, con lắc đơn, giao thoa sóng cơ học, khúc xạ ánh sáng, điện thế và dòng điện không đổi.</p>
+<div class="p-space-xs rounded bg-surface-container-lowest font-formula-md text-formula-md text-tertiary-fixed-dim flex items-center justify-between">
+<span>T = 2π √(l / g)</span>
+<span class="font-caption text-caption text-secondary">Con lắc đơn</span>
+</div>
+<div class="flex flex-col gap-1.5 pt-2 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed-dim">check_circle</span>
+<span>Thí nghiệm tạo sóng dừng giao thoa 3D</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed-dim">check_circle</span>
+<span>Sơ đồ mạch điện R-L-C tương tác</span>
+</div>
+</div>
+</div>
+<div class="pt-space-lg flex items-center justify-between">
+<span class="font-title-md text-title-md text-primary-container font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+              Khám phá chuyên đề <span class="material-symbols-outlined text-[18px]">east</span>
+</span>
+<span class="font-label-mono text-caption text-secondary">Đạt điểm 8+</span>
+</div>
+</div>
+<!-- Grade 12 Card -->
+<div class="rounded-xl bg-surface-container-low hover:bg-surface-container p-space-lg flex flex-col justify-between transition-all duration-300 shadow-md group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-space-sm py-1 rounded-full font-label-mono text-label-mono bg-surface-container-high text-primary font-semibold">Khối 12: Đột Phá Điểm 10</span>
+<span class="font-label-mono text-caption text-secondary">56 Chuyên đề</span>
+</div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary-container group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[28px]">flare</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">Vật Lý Nhiệt &amp; Hạt Nhân</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Vật lý nhiệt, Thuyết động học phân tử, Từ trường dòng điện, Lượng tử ánh sáng và Phản ứng phân hạch hạt nhân.</p>
+<div class="p-space-xs rounded bg-surface-container-high font-formula-md text-formula-md text-primary flex items-center justify-between">
+<span>E = m · c²</span>
+<span class="font-caption text-caption text-secondary">Hệ thức Einstein</span>
+</div>
+<div class="flex flex-col gap-1.5 pt-2 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Phân rã phóng xạ &amp; Chu kỳ bán rã</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-primary-container">check_circle</span>
+<span>Chu trình nhiệt động lực học Carnot</span>
+</div>
+</div>
+</div>
+<div class="pt-space-lg flex items-center justify-between">
+<span class="font-title-md text-title-md text-primary font-semibold group-hover:translate-x-1 transition-transform flex items-center gap-1">
+              Luyện đề chuyên sâu <span class="material-symbols-outlined text-[18px]">east</span>
+</span>
+<span class="font-label-mono text-caption text-outline">Luyện thi ĐGNL</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Feature Showcase Section (Bespoke 4 Pillars) -->
+<section class="w-full px-margin py-space-xl bg-surface relative">
+<div class="w-full max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col text-center items-center max-w-3xl mx-auto gap-space-xs">
+<span class="font-label-mono text-label-mono uppercase tracking-widest text-primary-container">Công nghệ sư phạm tương tác</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">Mọi Thứ Bạn Cần Để Tối Ưu Hóa Điểm Số</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Không chỉ học vẹt công thức. PhysiX giúp học sinh hiểu sâu bản chất tự nhiên, tăng tốc độ giải đề trắc nghiệm lên gấp 3 lần.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Feature 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-sm shadow-md hover:-translate-y-1 transition-transform">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[26px]">view_in_ar</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-semibold text-on-surface">Mô Phỏng 3D Realtime</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Tự do thay đổi độ cứng lò xo, góc lệch dây treo, điều chỉnh hiệu điện thế và quan sát quang phổ phát xạ trực quan ngay trên trình duyệt.
+          </p>
+<div class="mt-auto pt-space-xs flex items-center gap-1 text-primary-container font-label-mono text-caption">
+<span>500+ Module Lab</span>
+<span class="material-symbols-outlined text-[14px]">arrow_right_alt</span>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-sm shadow-md hover:-translate-y-1 transition-transform">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-[26px]">psychology</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-semibold text-on-surface">AI Hướng Dẫn Tư Duy</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Phân tích dữ kiện bài toán khó, gợi ý sơ đồ vecto và hệ thức liên quan thay vì chỉ ném đáp án, giúp hình thành tư duy phản biện.
+          </p>
+<div class="mt-auto pt-space-xs flex items-center gap-1 text-tertiary-fixed-dim font-label-mono text-caption">
+<span>Socratic Feedback</span>
+<span class="material-symbols-outlined text-[14px]">arrow_right_alt</span>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-sm shadow-md hover:-translate-y-1 transition-transform">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">quiz</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-semibold text-on-surface">10.000+ Câu Hỏi Chuẩn</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Phân tầng 4 mức độ: Nhận biết, Thông hiểu, Vận dụng và Vận dụng cao. Kèm đáp án chi tiết và video giải từ giáo viên trường chuyên.
+          </p>
+<div class="mt-auto pt-space-xs flex items-center gap-1 text-primary font-label-mono text-caption">
+<span>Chuẩn Bộ GD&amp;ĐT</span>
+<span class="material-symbols-outlined text-[14px]">arrow_right_alt</span>
+</div>
+</div>
+<!-- Feature 4 -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-sm shadow-md hover:-translate-y-1 transition-transform">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-surface-tint">
+<span class="material-symbols-outlined text-[26px]">auto_stories</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-semibold text-on-surface">Sổ Tay Vector Siêu Tốc</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Tra cứu hằng số, đơn vị SI và đồ thị tương quan trong 0.5s. Tích hợp công cụ vẽ giản đồ Fresnel và vòng tròn lượng giác thông minh.
+          </p>
+<div class="mt-auto pt-space-xs flex items-center gap-1 text-surface-tint font-label-mono text-caption">
+<span>Quick Lookup 1-Tap</span>
+<span class="material-symbols-outlined text-[14px]">arrow_right_alt</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- "Góc Học Thử Hôm Nay" (Interactive Quiz Spotlight) -->
+<section class="w-full px-margin py-space-xl bg-surface-container-lowest">
+<div class="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Left Visual & Narrative -->
+<div class="lg:col-span-5 flex flex-col gap-space-sm">
+<div class="inline-flex items-center gap-2 self-start px-space-xs py-1 rounded bg-surface-container-high text-tertiary font-label-mono text-caption font-semibold">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+<span>THỬ THÁCH HÀNG NGÀY • VẬT LÝ ĐỜI SỐNG</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface leading-tight">
+          Vật Lý Thực Tiễn <br/>Trong Đề Thi Đại Học
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Các đề thi Đánh Giá Năng Lực ĐHQG và Tốt Nghiệp THPT ngày càng chú trọng giải thích hiện tượng tự nhiên. Bạn có giải được câu hỏi dưới đây trong 60 giây?
+        </p>
+<!-- Dynamic Lab Diagram Placeholder -->
+<div class="relative w-full h-56 rounded-xl overflow-hidden mt-space-xs shadow-md">
+<img class="w-full h-full object-cover" data-alt="High-contrast aerial view of ocean waves refracting and bending into straight parallel wave fronts approaching a curved sandy shoreline, cinematic lighting, deep cyan water, subtle physics wavefront overlays and vector arrows in dark tech aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb7ZnGZLbBl_mtnCxaYE2i6uP3s2f8zg0s6Am8MimDfCKq_VgVVlH9LstLHv4YpxX4lPErrbXRiJ_TB2MdICD087MRBt-0scDR26HZ_5bxg_M_eNFuX3N_608Hk10pLKkDd62o9KWEiX1eY3uvK5DXjES1LpAnRUgKTZhNx9F-FyJ5a2MB_26v8iURyelFkiVn6M2U1CQh2XEGhIT4SUpKpF5V8vYzrd5-tl7wW2LU3jifi2PqqqWblA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+<div class="absolute bottom-3 left-3 px-space-xs py-1 rounded bg-surface-container-lowest/80 backdrop-blur-sm font-label-mono text-caption text-primary">
+            Hiện tượng khúc xạ sóng biển (Wave Refraction)
+          </div>
+</div>
+</div>
+<!-- Right Interactive Quiz Card -->
+<div class="lg:col-span-7 rounded-xl bg-surface-container p-space-lg shadow-xl flex flex-col gap-space-md" id="daily-challenge-box">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-2">
+<span class="px-space-xs py-0.5 rounded font-label-mono text-[11px] bg-primary-container text-on-primary-fixed font-bold">MÃ CÂU: VL11-Q84</span>
+<span class="font-caption text-caption text-secondary">Độ khó: Vận dụng</span>
+</div>
+<div class="flex items-center gap-1 font-label-mono text-caption text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>Gợi ý: 1 phút 15 giây</span>
+</div>
+</div>
+<div class="font-title-md text-title-md text-on-surface font-semibold leading-relaxed">
+          “Tại sao khi sóng biển truyền từ ngoài khơi xa vào gần bờ, các gợn sóng luôn có xu hướng uốn cong để trở nên gần như song song với đường bờ biển?”
+        </div>
+<!-- Multiple Choice Options -->
+<div class="flex flex-col gap-space-xs" id="quiz-options">
+<button class="quiz-btn w-full p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors text-left flex items-start gap-space-sm group" onclick="selectAnswer(this, false)" type="button">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-label-mono text-caption text-secondary group-hover:text-primary shrink-0">A</span>
+<span class="font-body-sm text-body-sm text-on-surface">Do gió từ đại dương thổi trực giao vuông góc tuyệt đối vào đất liền ép các đỉnh sóng lại.</span>
+</button>
+<button class="quiz-btn w-full p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors text-left flex items-start gap-space-sm group" onclick="selectAnswer(this, true)" type="button">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-label-mono text-caption text-secondary group-hover:text-primary shrink-0">B</span>
+<span class="font-body-sm text-body-sm text-on-surface">Do nước nông dần, tốc độ truyền sóng giảm (v = √gh). Phần sóng chạm vùng nước cạn trước sẽ chậm lại, khiến đầu sóng bị bẻ cong song song với bờ.</span>
+</button>
+<button class="quiz-btn w-full p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors text-left flex items-start gap-space-sm group" onclick="selectAnswer(this, false)" type="button">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-label-mono text-caption text-secondary group-hover:text-primary shrink-0">C</span>
+<span class="font-body-sm text-body-sm text-on-surface">Do hiện tượng phản xạ sóng toàn phần khi gặp mép bãi cát biến sóng ngang thành sóng dọc.</span>
+</button>
+<button class="quiz-btn w-full p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors text-left flex items-start gap-space-sm group" onclick="selectAnswer(this, false)" type="button">
+<span class="w-6 h-6 rounded-full bg-surface-container flex items-center justify-center font-label-mono text-caption text-secondary group-hover:text-primary shrink-0">D</span>
+<span class="font-body-sm text-body-sm text-on-surface">Do chu kỳ dao động T của nước biển tăng đột ngột khi tiến sát địa hình dốc của bờ đá.</span>
+</button>
+</div>
+<!-- Hidden Explanatory Drawer shown on answer -->
+<div class="hidden p-space-sm rounded-lg bg-surface-container-high flex flex-col gap-space-xs" id="explanation-box">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container text-[20px]">lightbulb</span>
+<span class="font-title-md text-title-md text-primary font-bold">Giải Thích Chi Tiết Vật Lý 11</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface leading-relaxed">
+            Chính xác! Sóng nông phụ thuộc vào độ sâu: <span class="font-formula-md text-formula-md text-primary-container">v = √(g · h)</span>. Khi sóng tiến vào gần bờ, vùng đáy nông làm giảm vận tốc sóng. Đoạn sóng nằm ở vùng nước sâu hơn vẫn duy trì vận tốc lớn hơn, tạo nên mô men quay bẻ cong mặt sóng vuông góc với pháp tuyến bờ biển (Hiện tượng khúc xạ sóng).
+          </p>
+<div class="flex items-center gap-space-md pt-space-xs font-label-mono text-caption text-secondary">
+<span>Tỉ lệ trả lời đúng: 68.4%</span>
+<span>•</span>
+<a class="text-primary-container hover:underline" href="#">Thực hành thêm 15 câu khúc xạ →</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Social Proof & Top Achievers -->
+<section class="w-full px-margin py-space-xl bg-surface">
+<div class="w-full max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono text-label-mono uppercase tracking-widest text-primary-container">Gương mặt thủ khoa PhysiX</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">Từ Mất Gốc Đến Điểm 9.75 &amp; 10 Tuyệt Đối</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">
+          Hơn 3.400 học sinh khóa 2006-2007 đạt điểm 9+ môn Vật lý trong kỳ thi tốt nghiệp THPT và Đánh giá Năng lực vừa qua.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter pt-space-xs">
+<!-- Student 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1 text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="px-space-xs py-0.5 rounded font-label-mono text-caption bg-surface-container-high text-primary-container font-bold">10.0 VẬT LÝ</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              “Trước đây phần Dao động cơ và Sóng em toàn học thuộc lòng công thức nên gặp bài biến thiên là bó tay. Nhờ các mô hình đồ thị động trên PhysiX, em nhìn một cái là suy ra pha ban đầu trong 10 giây.”
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of an energetic Vietnamese high school male student wearing spectacles smiling warmly against a subtle dark study room ambient background, student achievement style photo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAC1diA8V6EavEmJs5uW4KhkESKs0Z2lHfNlgluTTefGlxyJFMHervpNJIHkmFnaiaU03JRHYC9sUP1YhfUtYzUvI65C71IPYXGwNc0qowjjOsej6RYLEX8b63DivqWL3-IQdLYcotcAsuUzbGwEibnyBsRBOVwLKwIzIuT5BL5QepwZf0bl5OI_C8rEB3XGnWqdLjNDi6YlrJuQwbBHor8viD3J_cS1O25IofhFoXDVfeF1V2r8UNqPw"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-bold">Trần Hoàng Long</span>
+<span class="font-caption text-caption text-secondary">Thủ khoa Khối A00 • THPT Chuyên Hà Nội - Amsterdam</span>
+</div>
+</div>
+</div>
+<!-- Student 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1 text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="px-space-xs py-0.5 rounded font-label-mono text-caption bg-surface-container-high text-primary-container font-bold">9.75 VẬT LÝ</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              “Phần Nhiệt học và Vật lý hạt nhân trong chương trình 2018 rất mới, ít tài liệu hay. Hệ thống bài tập phân loại của nền tảng bám sát ma trận giúp em không bị bỡ ngỡ câu nào trong phòng thi.”
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of an intelligent Vietnamese high school female student with a neat ponytail and confident posture, soft studio key light on dark navy background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdgazq65KSn-SNdrDfV6O6LjEPDi8YsIfKvV0BWMmdpknzSODOCCodrkS-5_a25KMStYuxeiANoGI-I4wH4SaB9fOFz-RIL4hipNFQlITo-gmSKZYbnb6lseP1H7S8tfBcM6sqPC2o1pwIx6L0RMu3Ph_BpuD8b_p-vnt57ln2lZHLIKuF2CnZPSO8qHXHeV025PYNZcTPSssLlKTdPYQasXvxjXj4pMhbPKo_hh4gH1PvMWFDk34izw"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-bold">Nguyễn Phương Linh</span>
+<span class="font-caption text-caption text-secondary">Á khoa Khối A01 • THPT Chuyên Lê Hồng Phong TP.HCM</span>
+</div>
+</div>
+</div>
+<!-- Student 3 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-md shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1 text-tertiary-fixed-dim">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="px-space-xs py-0.5 rounded font-label-mono text-caption bg-surface-container-high text-primary-container font-bold">98/100 ĐGNL</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              “Phòng thí nghiệm ảo là tính năng em thích nhất. Được tự tay kéo biến trở, đo xung điện tử giúp em nhớ sâu gấp mười lần đọc sách lý thuyết suông. Tuyệt đối đề xuất cho các bạn 2k8, 2k9!”
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<img class="w-12 h-12 rounded-full object-cover" data-alt="Portrait of an ambitious teenage Vietnamese student wearing a collegiate navy hoodie, bright confident smile, high clarity modern portrait photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCugilIJpzX9N-WqkatzYanGb373xzM9vLWQk4QqO3_B-gtuUS-srrzYwpRVLY3cLDeFsnTDU32KFoRfCMLCUQauROhLG_cs4Ou3RZFKxgwHTputivXqZpWwHdDq6CF67fM8_unRdhwPsc4UTi4_sL3Jqs4Y3pg0nluKbIFeuKMAsMV8rrZ42di-_ItOD5rMJeoZV4MLcf-AWNIBIlqOmHUOo9hb-PY9B5SBLM_71jLkpSLfb096JoSDg"/>
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-bold">Đỗ Quốc Bảo</span>
+<span class="font-caption text-caption text-secondary">Top 1% Kỳ thi ĐGNL ĐHQG Hà Nội</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Final High-Impact Conversion Banner -->
+<section class="w-full px-margin py-space-xl bg-surface-container-lowest">
+<div class="w-full max-w-7xl mx-auto rounded-xl bg-gradient-to-r from-surface-container-low via-surface-container to-surface-container-high p-space-xl shadow-2xl relative overflow-hidden flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+<!-- Decorative background wave lines -->
+<svg class="pointer-events-none absolute right-0 bottom-0 opacity-15 w-96 h-96 text-primary-container" fill="none" viewbox="0 0 200 200">
+<circle cx="100" cy="100" r="80" stroke="currentColor" stroke-dasharray="6 6" stroke-width="2"></circle>
+<circle cx="100" cy="100" r="50" stroke="currentColor" stroke-width="1.5"></circle>
+<ellipse cx="100" cy="100" rx="90" ry="30" stroke="currentColor" stroke-width="1.5" transform="rotate(30 100 100)"></ellipse>
+<ellipse cx="100" cy="100" rx="90" ry="30" stroke="currentColor" stroke-width="1.5" transform="rotate(-30 100 100)"></ellipse>
+</svg>
+<div class="flex flex-col gap-space-sm max-w-2xl z-10">
+<div class="inline-flex items-center gap-space-xs px-space-xs py-1 rounded-full bg-surface-container-highest text-primary font-label-mono text-caption font-semibold self-start">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed-dim">workspace_premium</span>
+<span>Khởi Đầu Vững Vàng Cho Năm Học Mới</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">
+          Sẵn Sàng Làm Chủ Điểm Số Môn Vật Lý?
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Đăng ký tài khoản ngay hôm nay để nhận 14 ngày trải nghiệm trọn bộ 500+ Thí nghiệm ảo, Sổ tay công thức động lực học và Ngân hàng đề thi THPT Quốc Gia có lời giải.
+        </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-md shrink-0 z-10">
+<a class="w-full sm:w-auto px-space-xl py-3.5 rounded-lg bg-primary-container text-on-primary-fixed font-title-md text-title-md font-bold text-center shadow-lg hover:shadow-primary-container/30 hover:scale-[1.02] transition-all" href="#">
+          Tạo tài khoản học thử →
+        </a>
+<a class="w-full sm:w-auto px-space-lg py-3.5 rounded-lg bg-surface-container-highest text-on-surface font-title-md text-title-md font-medium text-center hover:bg-surface-bright transition-all" href="#">
+          Tra cứu bảng hằng số
+        </a>
+</div>
+</div>
+</section>
+</div>
+<script>
+  function selectAnswer(buttonElement, isCorrect) {
+    const allButtons = document.querySelectorAll('.quiz-btn');
+    allButtons.forEach(btn => {
+      btn.classList.remove('bg-surface-container-high', 'bg-error-container', 'bg-surface-container');
+      btn.disabled = true;
+    });
+
+    const explanation = document.getElementById('explanation-box');
+    explanation.classList.remove('hidden');
+
+    if (isCorrect) {
+      buttonElement.classList.add('bg-surface-container-highest');
+      const badge = buttonElement.querySelector('span:first-child');
+      if (badge) {
+        badge.classList.remove('bg-surface-container', 'text-secondary');
+        badge.classList.add('bg-primary-container', 'text-on-primary-fixed', 'font-bold');
+      }
+    } else {
+      buttonElement.classList.add('bg-error-container/40');
+      const badge = buttonElement.querySelector('span:first-child');
+      if (badge) {
+        badge.classList.add('bg-error', 'text-on-error');
+      }
+    }
+  }
+</script></main><footer class="w-full bg-surface-container-lowest text-on-surface-variant"><div class="w-full px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="PhysiX Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX5f9k_6rNVTypSA7getS_K9B8WEDUeiQVzZS3WAJJneSe6xwIJb59dOXAD1-xfOXZiwnTWAN_OfHNaPznHlW7BFCG_tJx0niWaeyyzhcuBUQQgXtAOXDaWw9dxCtSV6OoX7TdYxUtQRRAO7nW50DY2alL9ZPifJ6nkcg8CwO2uQ8s4A0v8uJKxKDeJcr7M4ZK0Pe5LwTykYjqPuM8xqNBjfhRUs7BlGlrgilLe17UUdaUqZbjV1k5MA"/><span class="font-headline-sm text-headline-sm font-bold text-primary">PhysiX</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Nền tảng học tập &amp; mô phỏng tương tác Vật Lý dành cho học sinh THPT theo chuẩn Chương trình Giáo dục Phổ thông 2018.</p><div class="flex items-center gap-space-xs mt-space-xs"><span class="font-label-mono text-label-mono px-space-xs py-0.5 rounded bg-surface-container-high text-primary-container font-semibold">STEM Ready</span><span class="font-label-mono text-label-mono px-space-xs py-0.5 rounded bg-surface-container-high text-secondary">GDPT 2018</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface">Chương trình Chuẩn GDPT</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm"><a class="hover:text-primary transition-colors" data-path="vat-ly-lop-10" href="#">Chuyên đề Vật lý 10 (Chân trời &amp; Cánh diều)</a><a class="hover:text-primary transition-colors" data-path="vat-ly-lop-11" href="#">Chuyên đề Vật lý 11 (Dao động, Sóng, Điện từ)</a><a class="hover:text-primary transition-colors" data-path="vat-ly-lop-12" href="#">Chuyên đề Vật lý 12 (Vật lý Nhiệt, Hạt nhân)</a><a class="hover:text-primary transition-colors" data-path="luyen-thi-thptqg" href="#">Ma trận Đề thi Đánh giá Năng lực &amp; THPTQG</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface">Tài nguyên &amp; Công cụ</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm"><a class="flex items-center gap-1.5 text-primary-container font-medium hover:underline" data-path="so-tay-cong-thuc" href="#"><span class="material-symbols-outlined text-[16px]">download</span><span>Tải Sổ tay Công thức Toàn diện (PDF)</span></a><a class="hover:text-primary transition-colors" data-path="thi-nghiem-ao" href="#">Phòng thí nghiệm Dao động &amp; Quang học ảo</a><a class="hover:text-primary transition-colors" data-path="tra-cuu-hang-so" href="#">Bảng tra cứu Hằng số Vật Lý chuẩn quốc tế</a><a class="hover:text-primary transition-colors" data-path="huong-dan-giai" href="#">Phương pháp giải nhanh Bài toán đồ thị</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface">Hỗ trợ Học thuật</span><p class="font-body-sm text-body-sm text-on-surface-variant">Cộng tác cùng đội ngũ Giáo viên Vật lý các trường THPT Chuyên toàn quốc.</p><div class="flex flex-col gap-1 font-label-mono text-label-mono text-secondary mt-1"><span>Email: support@physix.edu.vn</span><span>Hotline: 1900 6886 (8h00 - 21h00)</span></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm font-caption text-caption text-outline"><p>© 2025 PhysiX Learning Platform. Bản quyền thuộc về Đề án Phát triển Học liệu STEM THPT.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" href="#">Điều khoản sử dụng</a><a class="hover:text-on-surface transition-colors" href="#">Chính sách bảo mật</a><a class="hover:text-on-surface transition-colors" href="#">Góp ý nội dung bài giảng</a></div></div></div></footer></body></html>

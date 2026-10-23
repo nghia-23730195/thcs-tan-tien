@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed": "#001f24", "surface-container-lowest": "#050d25", "on-surface": "#dbe1ff", "secondary-fixed-dim": "#bdc5e9", "outline-variant": "#3b494c", "surface-tint": "#00daf3", "inverse-on-surface": "#282f49", "on-primary": "#00363d", "surface-container-high": "#212942", "secondary": "#bdc5e9", "tertiary": "#ffe9d6", "tertiary-fixed-dim": "#ffb868", "on-background": "#dbe1ff", "inverse-primary": "#006875", "primary-fixed": "#9cf0ff", "tertiary-container": "#ffc689", "on-tertiary-container": "#814d00", "surface-container-low": "#131a33", "on-primary-container": "#00626e", "secondary-fixed": "#dbe1ff", "secondary-container": "#3d4664", "on-tertiary-fixed": "#2b1700", "background": "#0a122a", "on-tertiary-fixed-variant": "#673d00", "inverse-surface": "#dbe1ff", "outline": "#849396", "error-container": "#93000a", "surface-variant": "#2c344d", "on-primary-fixed-variant": "#004f58", "primary-fixed-dim": "#00daf3", "surface": "#0a122a", "on-surface-variant": "#bac9cc", "on-error-container": "#ffdad6", "error": "#ffb4ab", "tertiary-fixed": "#ffddbb", "primary": "#c3f5ff", "surface-dim": "#0a122a", "on-secondary-fixed-variant": "#3d4664", "on-secondary": "#262f4c", "surface-container": "#171e37", "on-secondary-container": "#abb4d7", "on-tertiary": "#482900", "on-error": "#690005", "primary-container": "#00e5ff", "on-secondary-fixed": "#111a36", "surface-bright": "#313852", "surface-container-highest": "#2c344d" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "margin-mobile": "1rem", "gutter-mobile": "1rem", "margin": "2.5rem", "space-md": "1rem", "gutter": "1.5rem" }, "fontFamily": { "display-hero-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "formula-md": ["JetBrains Mono"], "body-lg": ["Plus Jakarta Sans"], "formula-lg": ["JetBrains Mono"], "label-mono": ["JetBrains Mono"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "caption": ["Plus Jakarta Sans"], "title-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"] }, "fontSize": { "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "formula-md": ["15px", { "lineHeight": "22px", "letterSpacing": "0.005em", "fontWeight": "500" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "formula-lg": ["20px", { "lineHeight": "28px", "letterSpacing": "0.01em", "fontWeight": "500" }], "label-mono": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "500" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "caption": ["12px", { "lineHeight": "16px", "fontWeight": "500" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }] } } } }</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm group focus:outline-none" data-path="trang-chu" href="#"><img alt="PhysiX Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX5f9k_6rNVTypSA7getS_K9B8WEDUeiQVzZS3WAJJneSe6xwIJb59dOXAD1-xfOXZiwnTWAN_OfHNaPznHlW7BFCG_tJx0niWaeyyzhcuBUQQgXtAOXDaWw9dxCtSV6OoX7TdYxUtQRRAO7nW50DY2alL9ZPifJ6nkcg8CwO2uQ8s4A0v8uJKxKDeJcr7M4ZK0Pe5LwTykYjqPuM8xqNBjfhRUs7BlGlrgilLe17UUdaUqZbjV1k5MA"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-primary font-bold">PhysiX</span><span class="font-label-mono text-label-mono text-on-surface-variant tracking-wider uppercase -mt-1">Vật Lý THPT</span></div></a><nav class="hidden xl:flex items-center gap-space-md" data-active-classes="text-primary-container font-semibold"><a class="px-space-sm py-space-xs font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="trang-chu" href="#">Trang chủ</a><div class="relative group py-space-xs"><button class="flex items-center gap-1 px-space-sm font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors focus:outline-none" type="button"><span>Chương trình học</span><span class="material-symbols-outlined text-[18px] transition-transform duration-200 group-hover:rotate-180">expand_more</span></button><div class="absolute left-0 top-full mt-2 hidden group-hover:flex flex-col w-56 p-space-xs rounded-xl bg-surface-container-high/95 backdrop-blur-xl shadow-[0_8px_32px_-4px_rgba(3,7,18,0.7)] z-50"><a class="flex flex-col px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-all" data-path="vat-ly-lop-10" href="#"><span class="font-title-md text-title-md text-on-surface">Vật Lý 10</span><span class="font-caption text-caption text-on-surface-variant">Cơ học, Động học &amp; Năng lượng</span></a><a class="flex flex-col px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-all" data-path="vat-ly-lop-11" href="#"><span class="font-title-md text-title-md text-on-surface">Vật Lý 11</span><span class="font-caption text-caption text-on-surface-variant">Điện từ trường, Dao động &amp; Sóng</span></a><a class="flex flex-col px-space-sm py-space-xs rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-all" data-path="vat-ly-lop-12" href="#"><span class="font-title-md text-title-md text-on-surface">Vật Lý 12</span><span class="font-caption text-caption text-on-surface-variant">Lượng tử, Hạt nhân &amp; Sóng điện từ</span></a></div></div><a class="px-space-sm py-space-xs font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="thi-nghiem-ao" href="#">Thí nghiệm ảo</a><a class="px-space-sm py-space-xs font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="luyen-thi-thptqg" href="#">Luyện thi THPTQG</a><a class="px-space-sm py-space-xs font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="tien-do-hoc-tap" href="#">Tiến độ học tập</a></nav></div><div class="flex items-center gap-space-md"><div class="relative hidden md:block w-72"><span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px] pointer-events-none">search</span><input class="w-full h-10 pl-10 pr-4 bg-surface-container-low text-on-surface placeholder:text-outline text-body-sm font-body-sm rounded-xl transition-all focus:outline-none focus:bg-surface-container focus:ring-1 focus:ring-primary-container" placeholder="Tìm công thức, bài giảng..." type="search"/><kbd class="absolute right-2.5 top-1/2 -translate-y-1/2 font-label-mono text-[10px] text-outline bg-surface-container-high px-1.5 py-0.5 rounded">⌘K</kbd></div><div class="flex items-center gap-space-sm px-space-sm py-1.5 rounded-full bg-surface-container-low"><span class="material-symbols-outlined text-tertiary-fixed-dim text-[20px]">local_fire_department</span><span class="font-label-mono text-label-mono font-bold text-tertiary">7 ngày</span></div><button aria-label="Thông báo bài học và kỳ thi" class="relative p-2 rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-primary-container animate-pulse"></span></button><div class="flex items-center gap-space-sm pl-space-xs"><div class="flex flex-col text-right hidden sm:flex"><span class="font-title-md text-title-md text-on-surface leading-tight">Minh Anh</span><span class="font-caption text-caption text-secondary">Lớp 12A1</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-container/40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4U0FDbcMbYWHQiTfgJMBxk3n6MtTzBUyphBuJpi3Y2MPhOjARIjyYiRATHhaOyBkoJIUJ7XAgdmAftrDndwNBk0w3p77O6_0NPotxMlBrk5-ZkdMMGeHxaV4IZt6RqZOef7zXDdvESCHYZqZaIQpeGLi6Vr5TK0yx3zTI4rG6zoko9njX_plNTcps5EABjILVaaAH1FXsFCI27c7S6b2cbH_BJjsVO2flrHUNqk9iJ1-MXdyiZeeaOA"/></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow Backdrop -->
+<div class="relative w-full overflow-hidden px-margin py-space-md">
+<div class="pointer-events-none absolute -top-40 left-1/4 h-96 w-96 rounded-full bg-primary-container/10 blur-[120px]"></div>
+<div class="pointer-events-none absolute top-60 right-10 h-80 w-80 rounded-full bg-tertiary-container/10 blur-[100px]"></div>
+<!-- 1. Header Phụ / Breadcrumb & Hardware Status Bar -->
+<div class="flex flex-col gap-space-sm mb-space-lg">
+<div class="flex flex-wrap items-center justify-between gap-space-md">
+<!-- Breadcrumb & Topic Pill -->
+<div class="flex flex-wrap items-center gap-space-xs font-caption text-caption text-secondary">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[16px]">science</span>
+<span>Thí nghiệm ảo</span>
+</a>
+<span class="text-outline">/</span>
+<a class="hover:text-primary transition-colors" href="#">Vật Lý 11: Dao động &amp; Sóng</a>
+<span class="text-outline">/</span>
+<span class="text-primary font-semibold">Chuyên đề Sóng dừng &amp; Tốc độ truyền âm (Kundt Tube)</span>
+<span class="font-label-mono text-label-mono ml-space-xs px-space-xs py-0.5 rounded-full bg-surface-container-high text-primary-container">
+            STEM GDPT 2018
+          </span>
+</div>
+<!-- Session Tools -->
+<div class="flex items-center gap-space-xs">
+<button class="flex items-center gap-1.5 px-space-sm py-1.5 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container transition-all text-body-sm font-title-md" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary">tune</span>
+<span>Hiệu chuẩn (Calibrate)</span>
+</button>
+<button class="flex items-center gap-1.5 px-space-sm py-1.5 rounded-lg bg-surface-container-low text-on-surface hover:bg-surface-container transition-all text-body-sm font-title-md" type="button">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed-dim">save</span>
+<span>Ghi dữ liệu (Data Logging)</span>
+</button>
+<button class="flex items-center gap-1.5 px-space-sm py-1.5 rounded-lg bg-primary-container text-on-primary-fixed hover:shadow-[0_0_16px_rgba(0,229,255,0.4)] transition-all text-body-sm font-title-md" type="button">
+<span class="material-symbols-outlined text-[18px]">hub</span>
+<span>Quản lý thiết bị (2 online)</span>
+</button>
+</div>
+</div>
+<!-- Real-time Peripheral Hub Status Strip -->
+<div class="w-full rounded-xl bg-surface-container-low p-space-sm flex flex-wrap items-center justify-between gap-space-md shadow-md">
+<div class="flex flex-wrap items-center gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="relative flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-container opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-primary-container"></span>
+</span>
+<span class="font-title-md text-title-md text-on-surface">Vernier Go Direct® Sound</span>
+<span class="font-label-mono text-label-mono text-secondary px-2 py-0.5 rounded bg-surface-container-high">BLE 5.2</span>
+</div>
+<div class="flex items-center gap-space-xs text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[18px] text-primary">speed</span>
+<span>Tần số mẫu: <span class="font-label-mono text-on-surface font-semibold">100.0 kHz</span></span>
+</div>
+<div class="flex items-center gap-space-xs text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed-dim">battery_charging_full</span>
+<span>Pin: <span class="font-label-mono text-on-surface font-semibold">94%</span></span>
+</div>
+<div class="flex items-center gap-space-xs text-body-sm text-secondary">
+<span class="material-symbols-outlined text-[18px] text-primary-fixed-dim">sensors</span>
+<span>Độ trễ truyền: <span class="font-label-mono text-on-surface font-semibold">2.4 ms</span></span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-mono text-caption text-secondary">Giao thức:</span>
+<span class="font-label-mono text-label-mono px-2 py-0.5 rounded bg-surface-container text-on-surface">WebUSB / WebBluetooth API</span>
+<span class="flex items-center gap-1 font-label-mono text-label-mono text-primary-container ml-2">
+<span class="material-symbols-outlined text-[16px]">stream</span>
+<span>LIVE STREAMING</span>
+</span>
+</div>
+</div>
+</div>
+<!-- 2. Main Lab Grid: 8:4 Split on Desktop -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT COLUMN: Virtual Lab Sandbox & Telemetry (8 Cols) -->
+<div class="xl:col-span-8 flex flex-col gap-space-lg min-w-0">
+<!-- Top Lab Mode Selector -->
+<div class="w-full flex flex-wrap items-center justify-between gap-space-sm p-space-xs rounded-xl bg-surface-container-low shadow-sm">
+<div class="flex items-center gap-1 bg-surface-container-lowest p-1 rounded-lg">
+<button class="px-space-sm py-1.5 rounded-md font-title-md text-body-sm bg-primary-container text-on-primary-fixed shadow-[0_0_12px_rgba(0,229,255,0.3)] transition-all" id="btn-mode-hybrid" type="button">
+              Chế độ Lai (Lý thuyết vs Cảm biến thực)
+            </button>
+<button class="px-space-sm py-1.5 rounded-md font-title-md text-body-sm text-secondary hover:text-on-surface hover:bg-surface-container-high transition-all" id="btn-mode-sim" type="button">
+              Mô phỏng thuần túy (Simulation)
+            </button>
+<button class="px-space-sm py-1.5 rounded-md font-title-md text-body-sm text-secondary hover:text-on-surface hover:bg-surface-container-high transition-all" id="btn-mode-sensor" type="button">
+              Phần cứng Vernier / Pasco Live
+            </button>
+</div>
+<div class="flex items-center gap-space-xs px-space-sm text-caption text-secondary">
+<span class="material-symbols-outlined text-[18px] text-primary">auto_fix_high</span>
+<span>Tự động khử ồn DSP: <span class="text-primary font-semibold">Bật</span></span>
+</div>
+</div>
+<!-- Kundt Resonance Tube Apparatus Visualizer -->
+<div class="w-full rounded-2xl bg-surface-container-lowest p-space-md shadow-xl relative overflow-hidden flex flex-col gap-space-md">
+<div class="flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-[24px]">graphic_eq</span>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Mô hình Ống Cộng Hưởng Kundt &amp; Thước Đo Âm Học</h2>
+<p class="font-caption text-caption text-secondary">Ống hở một đầu, một đầu bịt bởi pittông phản xạ. Cảm biến Vernier gắn trên giá trượt micrô.</p>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-mono text-label-mono px-2 py-1 rounded bg-surface-container text-primary">f = <span id="lbl-f">1000</span> Hz</span>
+<span class="font-label-mono text-label-mono px-2 py-1 rounded bg-surface-container text-tertiary-fixed-dim">L = <span id="lbl-L">85.0</span> cm</span>
+</div>
+</div>
+<!-- Apparatus Graphic Canvas Area -->
+<div class="relative w-full h-64 rounded-xl bg-surface-container-high overflow-hidden flex flex-col justify-between p-4">
+<!-- Background Measurement Grid Overlay -->
+<div class="absolute inset-0 opacity-15 pointer-events-none" style="background-image: radial-gradient(#00e5ff 1px, transparent 1px); background-size: 16px 16px;"></div>
+<!-- Top Speaker & Sound Source Indicator -->
+<div class="relative z-10 flex items-center justify-between">
+<div class="flex items-center gap-2 bg-surface-container-lowest/80 px-2.5 py-1 rounded-md backdrop-blur-md">
+<span class="material-symbols-outlined text-[18px] text-primary-container animate-pulse">volume_up</span>
+<span class="font-label-mono text-label-mono text-primary font-semibold">Loa phát âm tần (Driver Horn)</span>
+</div>
+<div class="flex items-center gap-3 font-label-mono text-caption text-secondary bg-surface-container-lowest/80 px-2.5 py-1 rounded-md backdrop-blur-md">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-primary-container"></span> Bụng sóng (Cực đại)</span>
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim"></span> Nút sóng (Cực tiểu)</span>
+</div>
+</div>
+<!-- Kundt Glass Tube with Standing Waves Dynamic Simulation -->
+<div class="relative my-auto w-full h-24 bg-surface-container-lowest/90 rounded-lg p-2 flex items-center shadow-inner overflow-hidden">
+<!-- Glass Sheen Gradient -->
+<div class="absolute inset-0 bg-gradient-to-r from-primary-container/10 via-transparent to-primary-container/10 pointer-events-none"></div>
+<!-- Speaker cone on left -->
+<div class="w-8 h-16 rounded-l-md bg-secondary-container flex items-center justify-center relative flex-shrink-0">
+<div class="w-3 h-10 bg-primary-container/60 rounded-full animate-ping opacity-40"></div>
+<div class="absolute -right-1 w-2 h-8 bg-surface-bright rounded"></div>
+</div>
+<!-- Wave simulation visual inside tube -->
+<div class="relative flex-1 h-full mx-2 flex items-center overflow-hidden">
+<svg class="w-full h-full" preserveaspectratio="none" viewbox="0 0 700 80">
+<!-- Theoretical Envelope Standing Wave -->
+<path class="text-primary-container/40" d="M 0,40 Q 87.5,10 175,40 T 350,40 T 525,40 T 700,40" fill="none" stroke="currentColor" stroke-dasharray="3 3" stroke-width="2"></path>
+<path class="text-primary-container/40" d="M 0,40 Q 87.5,70 175,40 T 350,40 T 525,40 T 700,40" fill="none" stroke="currentColor" stroke-dasharray="3 3" stroke-width="2"></path>
+<!-- Real Sensor Dynamic Standing Waveform (Live CH2) -->
+<path class="text-primary-container" d="M 0,40 C 40,12 130,12 175,40 C 220,68 310,68 350,40 C 390,12 480,12 525,40 C 570,68 660,68 700,40" fill="none" id="sensor-wave-path" stroke="currentColor" stroke-width="2.5"></path>
+<!-- Resonance Nodes & Antinodes Pins -->
+<circle class="fill-primary-container animate-pulse" cx="87.5" cy="25" r="4"></circle>
+<circle class="fill-primary-container animate-pulse" cx="262.5" cy="25" r="4"></circle>
+<circle class="fill-primary-container animate-pulse" cx="437.5" cy="25" r="4"></circle>
+<circle class="fill-primary-container animate-pulse" cx="612.5" cy="25" r="4"></circle>
+<circle class="fill-tertiary-fixed-dim" cx="175" cy="40" r="3"></circle>
+<circle class="fill-tertiary-fixed-dim" cx="350" cy="40" r="3"></circle>
+<circle class="fill-tertiary-fixed-dim" cx="525" cy="40" r="3"></circle>
+</svg>
+<!-- Sliding Sensor Microphone Cart (Vernier Hardware Linked) -->
+<div class="absolute top-1 bottom-1 w-6 bg-tertiary-fixed-dim/90 rounded flex flex-col items-center justify-between py-1 shadow-lg transform -translate-x-1/2 cursor-ew-resize transition-all" id="sensor-slider-cart" style="left: 62%;">
+<span class="w-1.5 h-1.5 rounded-full bg-surface-container-lowest"></span>
+<span class="material-symbols-outlined text-[12px] text-surface-container-lowest font-bold">mic</span>
+<span class="w-2 h-0.5 bg-surface-container-lowest"></span>
+</div>
+<!-- Adjustable Piston / Reflector Stop at Right -->
+<div class="absolute right-0 top-0 bottom-0 w-4 bg-outline rounded-r flex flex-col justify-center items-center shadow-md">
+<div class="w-1.5 h-10 bg-surface-container-lowest rounded-full"></div>
+</div>
+</div>
+</div>
+<!-- Ruler & Calibration Axis Marks (mm Scale) -->
+<div class="relative z-10 w-full pt-1 flex flex-col gap-1">
+<div class="w-full flex justify-between font-label-mono text-[10px] text-secondary">
+<span>0 cm</span>
+<span>10 cm</span>
+<span>20 cm</span>
+<span>30 cm</span>
+<span>40 cm</span>
+<span>50 cm</span>
+<span>60 cm</span>
+<span>70 cm</span>
+<span>80 cm</span>
+<span>90 cm</span>
+<span>100 cm</span>
+</div>
+<!-- Ruler tick lines SVG -->
+<div class="w-full h-3 opacity-60">
+<svg class="w-full h-full" preserveaspectratio="none" viewbox="0 0 1000 12">
+<line class="text-outline" stroke="currentColor" stroke-width="1.5" x1="0" x2="1000" y1="0" y2="0"></line>
+<!-- 10 main markers -->
+<g class="text-primary-container" stroke="currentColor" stroke-width="1.5">
+<line x1="0" x2="0" y1="0" y2="10"></line>
+<line x1="100" x2="100" y1="0" y2="10"></line>
+<line x1="200" x2="200" y1="0" y2="10"></line>
+<line x1="300" x2="300" y1="0" y2="10"></line>
+<line x1="400" x2="400" y1="0" y2="10"></line>
+<line x1="500" x2="500" y1="0" y2="10"></line>
+<line x1="600" x2="600" y1="0" y2="10"></line>
+<line x1="700" x2="700" y1="0" y2="10"></line>
+<line x1="800" x2="800" y1="0" y2="10"></line>
+<line x1="900" x2="900" y1="0" y2="10"></line>
+<line x1="1000" x2="1000" y1="0" y2="10"></line>
+</g>
+<!-- Subdivisions -->
+<g class="text-outline" stroke="currentColor" stroke-width="1">
+<line x1="50" x2="50" y1="0" y2="6"></line>
+<line x1="150" x2="150" y1="0" y2="6"></line>
+<line x1="250" x2="250" y1="0" y2="6"></line>
+<line x1="350" x2="350" y1="0" y2="6"></line>
+<line x1="450" x2="450" y1="0" y2="6"></line>
+<line x1="550" x2="550" y1="0" y2="6"></line>
+<line x1="650" x2="650" y1="0" y2="6"></line>
+<line x1="750" x2="750" y1="0" y2="6"></line>
+<line x1="850" x2="850" y1="0" y2="6"></line>
+<line x1="950" x2="950" y1="0" y2="6"></line>
+</g>
+</svg>
+</div>
+</div>
+</div>
+<!-- Physical Apparatus Experiment Adjustment Knobs -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm bg-surface-container-low p-space-sm rounded-xl">
+<!-- Parameter 1: Generator Frequency -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<label class="font-caption text-caption text-secondary">Tần số âm f (Hz)</label>
+<span class="font-label-mono text-label-mono text-primary font-bold"><span id="val-freq">1000</span> Hz</span>
+</div>
+<input class="w-full accent-primary-container cursor-pointer h-2 bg-surface-container-high rounded-lg" id="range-freq" max="3000" min="200" step="10" type="range" value="1000"/>
+<div class="flex justify-between text-[11px] font-label-mono text-outline">
+<span>200 Hz</span>
+<span>Quét tự động</span>
+<span>3.0 kHz</span>
+</div>
+</div>
+<!-- Parameter 2: Microphone Position Slider -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<label class="font-caption text-caption text-secondary">Vị trí Micrô Cảm biến x (cm)</label>
+<span class="font-label-mono text-label-mono text-tertiary-fixed-dim font-bold"><span id="val-pos">62.0</span> cm</span>
+</div>
+<input class="w-full accent-tertiary-fixed-dim cursor-pointer h-2 bg-surface-container-high rounded-lg" id="range-pos" max="100" min="0" step="0.1" type="range" value="62"/>
+<div class="flex justify-between text-[11px] font-label-mono text-outline">
+<span>0.0 cm</span>
+<span>Bước di chuyển: 1mm</span>
+<span>100.0 cm</span>
+</div>
+</div>
+<!-- Parameter 3: Gas Medium & Temperature Selection -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<label class="font-caption text-caption text-secondary">Môi trường &amp; Nhiệt độ</label>
+<span class="font-label-mono text-label-mono text-on-surface font-medium">v_lt = <span id="val-v-theory">346.0</span> m/s</span>
+</div>
+<div class="grid grid-cols-2 gap-1.5">
+<select class="bg-surface-container text-on-surface text-body-sm font-title-md rounded px-2 py-1 focus:outline-none focus:ring-1 focus:ring-primary-container" id="select-gas">
+<option value="air_25">Không khí (25°C)</option>
+<option value="air_0">Không khí (0°C)</option>
+<option value="he">Khí Heli (He)</option>
+<option value="co2">Khí CO2</option>
+</select>
+<button class="flex items-center justify-center gap-1 bg-surface-container text-primary-container hover:bg-surface-container-high font-title-md text-caption rounded px-2 py-1 transition-colors" id="btn-play-tone" type="button">
+<span class="material-symbols-outlined text-[16px]">play_circle</span>
+<span id="tone-btn-text">Phát Audio</span>
+</button>
+</div>
+<div class="flex justify-between text-[11px] font-label-mono text-outline">
+<span>T = 298.15 K</span>
+<span>γ = 1.40, M = 29 g/mol</span>
+</div>
+</div>
+</div>
+</div>
+<!-- 2-Channel Digital Oscilloscope & FFT Spectral Analyzer -->
+<div class="w-full rounded-2xl bg-surface-container-lowest p-space-md shadow-xl flex flex-col gap-space-sm">
+<div class="flex flex-wrap items-center justify-between gap-space-sm pb-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">troubleshoot</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Dao Động Ký Kép &amp; Phổ Tần Số FFT (Dual Oscilloscope)</h3>
+<p class="font-caption text-caption text-secondary">So sánh dạng sóng điện áp kích thích (CH1) và tín hiệu sóng âm thực tế qua micro Vernier (CH2)</p>
+</div>
+</div>
+<!-- Channel Legend Toggles -->
+<div class="flex items-center gap-space-sm">
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-surface-container-low font-label-mono text-caption text-primary-container">
+<span class="w-2.5 h-2.5 rounded-sm bg-primary-container"></span>
+<span>CH1: Phát sóng (Lý thuyết)</span>
+</div>
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-surface-container-low font-label-mono text-caption text-tertiary-fixed-dim">
+<span class="w-2.5 h-2.5 rounded-sm bg-tertiary-fixed-dim"></span>
+<span>CH2: Cảm biến ngoài (Vernier)</span>
+</div>
+</div>
+</div>
+<!-- Oscilloscope Visualizer Box -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-sm">
+<!-- Screen Area (2 Cols on lg) -->
+<div class="lg:col-span-2 h-60 rounded-xl bg-surface-container-lowest relative overflow-hidden flex flex-col p-3 shadow-inner">
+<!-- CRT Reticle Matrix Grid -->
+<svg class="absolute inset-0 w-full h-full opacity-20 pointer-events-none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="30" id="scope-grid" patternunits="userSpaceOnUse" width="30">
+<path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00daf3" stroke-width="0.75"></path>
+<circle cx="15" cy="15" fill="#00daf3" r="0.5"></circle>
+</pattern>
+</defs>
+<rect fill="url(#scope-grid)" height="100%" width="100%"></rect>
+<!-- Center Axes -->
+<line stroke="#00daf3" stroke-dasharray="2 2" stroke-width="1.2" x1="50%" x2="50%" y1="0" y2="100%"></line>
+<line stroke="#00daf3" stroke-dasharray="2 2" stroke-width="1.2" x1="0" x2="100%" y1="50%" y2="50%"></line>
+</svg>
+<!-- Live Waves Render -->
+<div class="relative z-10 w-full h-full flex items-center">
+<svg class="w-full h-full" preserveaspectratio="none" viewbox="0 0 500 200">
+<!-- CH1 Sine Wave (Cyan Clean Wave) -->
+<path class="text-primary-container" d="M 0,100 Q 31.25,20 62.5,100 T 125,100 T 187.5,100 T 250,100 T 312.5,100 T 375,100 T 437.5,100 T 500,100" fill="none" opacity="0.85" stroke="currentColor" stroke-width="2"></path>
+<!-- CH2 Real Sensor Microphone Wave (Amber/Emerald with slight physical acoustics harmonics & ambient noise) -->
+<path class="text-tertiary-fixed-dim" d="M 0,100 Q 30,28 62.5,96 T 123,103 T 189,24 T 252,98 T 314,174 T 376,97 T 438,26 T 500,102" fill="none" stroke="currentColor" stroke-width="2.5"></path>
+</svg>
+</div>
+<!-- Live Scope Telemetry Readout -->
+<div class="absolute bottom-2 left-3 right-3 flex justify-between font-label-mono text-[11px] text-secondary z-10 bg-surface-container-lowest/70 backdrop-blur-sm px-2 py-0.5 rounded">
+<span>TIME: 0.20 ms/div</span>
+<span>CH1: 1.00 V/div</span>
+<span>CH2: 50.0 mV/div</span>
+<span class="text-primary font-semibold">ĐỘ LỆCH PHA Δφ: 0.12π rad</span>
+</div>
+</div>
+<!-- FFT Spectrum Analyzer & Resonance Peak Gauge -->
+<div class="rounded-xl bg-surface-container-low p-space-sm flex flex-col justify-between">
+<div class="flex items-center justify-between pb-1">
+<span class="font-title-md text-caption text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed-dim">equalizer</span>
+<span>Phổ Tần Số FFT (Harmonics)</span>
+</span>
+<span class="font-label-mono text-[10px] text-primary-container">Đỉnh: 1002.4 Hz</span>
+</div>
+<!-- FFT Bar Graph SVG -->
+<div class="h-32 w-full flex items-end gap-1 px-1 py-2 bg-surface-container-lowest rounded-lg">
+<!-- Bar 1 (Low sub noise) -->
+<div class="flex-1 bg-surface-container-high rounded-t h-[12%]"></div>
+<!-- Bar 2 -->
+<div class="flex-1 bg-surface-container-high rounded-t h-[8%]"></div>
+<!-- Bar 3: Peak Resonant Frequency f0 -->
+<div class="flex-1 bg-primary-container rounded-t h-[94%] shadow-[0_0_10px_rgba(0,229,255,0.6)] relative group">
+<span class="absolute -top-5 left-1/2 -translate-x-1/2 font-label-mono text-[9px] text-primary hidden group-hover:block whitespace-nowrap">f0</span>
+</div>
+<!-- Bar 4 (Drop) -->
+<div class="flex-1 bg-surface-container-high rounded-t h-[18%]"></div>
+<!-- Bar 5 -->
+<div class="flex-1 bg-surface-container-high rounded-t h-[14%]"></div>
+<!-- Bar 6: 2nd Harmonic 2f0 -->
+<div class="flex-1 bg-tertiary-fixed-dim rounded-t h-[38%] relative group">
+<span class="absolute -top-5 left-1/2 -translate-x-1/2 font-label-mono text-[9px] text-tertiary hidden group-hover:block whitespace-nowrap">2f0</span>
+</div>
+<!-- Bar 7 -->
+<div class="flex-1 bg-surface-container-high rounded-t h-[9%]"></div>
+<!-- Bar 8: 3rd Harmonic 3f0 -->
+<div class="flex-1 bg-tertiary-fixed-dim rounded-t h-[22%]"></div>
+<!-- Bar 9 -->
+<div class="flex-1 bg-surface-container-high rounded-t h-[6%]"></div>
+</div>
+<!-- Physics Theoretical Formula Block -->
+<div class="mt-2 p-2 rounded bg-surface-container border-l-2 border-primary-container">
+<span class="font-caption text-[11px] text-secondary block">Công thức Sóng dừng Cột khí:</span>
+<span class="font-formula-md text-formula-md text-primary font-bold">L = (2k + 1) · (λ / 4)</span>
+<span class="font-caption text-[11px] text-outline block mt-0.5">Với v = λ · f → λ = 2 · (d_{k+1} - d_k)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: Hardware Hub, Live Data Table & AI Lab Assistant (4 Cols) -->
+<div class="xl:col-span-4 flex flex-col gap-space-lg min-w-0">
+<!-- Card 1: Connected Hardware Hub (Vernier & Arduino STEM) -->
+<div class="w-full rounded-2xl bg-surface-container-low p-space-md shadow-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-[22px]">developer_board</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Trung Tâm Thiết Bị Ngoại Vi</h3>
+</div>
+<span class="font-label-mono text-caption px-2 py-0.5 rounded bg-surface-container-high text-primary font-semibold">2 KẾT NỐI</span>
+</div>
+<!-- Sensor Card 1 -->
+<div class="p-space-sm rounded-xl bg-surface-container flex flex-col gap-1.5 shadow-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">mic</span>
+<span class="font-title-md text-body-md text-on-surface font-semibold">Vernier Go Direct® Sound</span>
+</div>
+<span class="font-label-mono text-[10px] px-2 py-0.5 rounded-full bg-primary/10 text-primary">ONLINE</span>
+</div>
+<div class="grid grid-cols-2 gap-2 text-caption font-label-mono text-secondary pt-1">
+<div>Cường độ âm: <span class="text-on-surface font-bold">82.4 dB</span></div>
+<div>Tần số đọc: <span class="text-primary-container font-bold">998.2 Hz</span></div>
+<div>Cổng kết nối: <span class="text-on-surface">Bluetooth LE</span></div>
+<div>Bộ đệm mẫu: <span class="text-on-surface">2048 pts</span></div>
+</div>
+</div>
+<!-- Sensor Card 2 -->
+<div class="p-space-sm rounded-xl bg-surface-container flex flex-col gap-1.5 shadow-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-[20px]">straighten</span>
+<span class="font-title-md text-body-md text-on-surface font-semibold">Ultrasonic Motion Detector</span>
+</div>
+<span class="font-label-mono text-[10px] px-2 py-0.5 rounded-full bg-tertiary-fixed-dim/10 text-tertiary-fixed-dim">USB-C</span>
+</div>
+<div class="grid grid-cols-2 gap-2 text-caption font-label-mono text-secondary pt-1">
+<div>Vị trí trượt: <span class="text-on-surface font-bold">62.05 cm</span></div>
+<div>Sai số đo: <span class="text-tertiary-fixed-dim font-bold">± 0.2 mm</span></div>
+<div>Vi điều khiển: <span class="text-on-surface">ESP32 / Arduino</span></div>
+<div>Baudrate: <span class="text-on-surface">115200 bps</span></div>
+</div>
+</div>
+<!-- Add Device Button -->
+<button class="w-full py-2.5 px-space-sm rounded-xl bg-surface-container-high hover:bg-surface-bright text-on-surface font-title-md text-body-sm flex items-center justify-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px] text-primary">bluetooth_searching</span>
+<span>+ Quét thêm cảm biến (BLE / Pasco / WebUSB)</span>
+</button>
+</div>
+<!-- Card 2: Live Experimental Data Table & Error Analysis -->
+<div class="w-full rounded-2xl bg-surface-container-low p-space-md shadow-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">table_chart</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Bảng Dữ Liệu Thực Nghiệm</h3>
+</div>
+<button class="px-2 py-1 rounded bg-primary-container text-on-primary-fixed text-caption font-title-md hover:shadow-[0_0_12px_rgba(0,229,255,0.4)] transition-all" id="btn-add-record" type="button">
+              + Ghi điểm cực đại
+            </button>
+</div>
+<!-- Table Container -->
+<div class="w-full overflow-x-auto">
+<table class="w-full text-left font-label-mono text-[11px] text-on-surface">
+<thead>
+<tr class="text-secondary bg-surface-container-high/60">
+<th class="py-2 px-2 rounded-l">Lần</th>
+<th class="py-2 px-1">d_n (cm)</th>
+<th class="py-2 px-1">λ/2 (cm)</th>
+<th class="py-2 px-1">λ (m)</th>
+<th class="py-2 px-2 rounded-r">v (m/s)</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-highest/30">
+<tr>
+<td class="py-2 px-2 font-bold text-primary">1 (k=1)</td>
+<td class="py-2 px-1">8.6</td>
+<td class="py-2 px-1 text-outline">-</td>
+<td class="py-2 px-1">0.344</td>
+<td class="py-2 px-2 font-semibold">344.0</td>
+</tr>
+<tr>
+<td class="py-2 px-2 font-bold text-primary">2 (k=2)</td>
+<td class="py-2 px-1">26.0</td>
+<td class="py-2 px-1">17.4</td>
+<td class="py-2 px-1">0.348</td>
+<td class="py-2 px-2 font-semibold">348.0</td>
+</tr>
+<tr>
+<td class="py-2 px-2 font-bold text-primary">3 (k=3)</td>
+<td class="py-2 px-1">43.3</td>
+<td class="py-2 px-1">17.3</td>
+<td class="py-2 px-1">0.346</td>
+<td class="py-2 px-2 font-semibold">346.0</td>
+</tr>
+<tr>
+<td class="py-2 px-2 font-bold text-primary">4 (k=4)</td>
+<td class="py-2 px-1">60.7</td>
+<td class="py-2 px-1">17.4</td>
+<td class="py-2 px-1">0.348</td>
+<td class="py-2 px-2 font-semibold">348.0</td>
+</tr>
+<tr>
+<td class="py-2 px-2 font-bold text-primary">5 (k=5)</td>
+<td class="py-2 px-1">78.0</td>
+<td class="py-2 px-1">17.3</td>
+<td class="py-2 px-1">0.346</td>
+<td class="py-2 px-2 font-semibold">346.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Statistical Averages & Precision Breakdown -->
+<div class="mt-1 p-space-sm rounded-xl bg-surface-container flex flex-col gap-1.5 font-label-mono text-caption">
+<div class="flex justify-between items-center">
+<span class="text-secondary">Tốc độ trung bình (v̄):</span>
+<span class="text-primary-container text-body-md font-bold">346.4 m/s</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-secondary">Sai số tuyệt đối (Δv̄):</span>
+<span class="text-on-surface font-semibold">± 1.4 m/s</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-secondary">Tốc độ lý thuyết (25°C):</span>
+<span class="text-on-surface">346.0 m/s</span>
+</div>
+<div class="flex justify-between items-center pt-1">
+<span class="text-secondary">Sai số tương đối (δ):</span>
+<span class="text-primary-container font-bold px-1.5 py-0.5 rounded bg-primary-container/10">0.23% (Cực kỳ chính xác)</span>
+</div>
+</div>
+</div>
+<!-- Card 3: AI Lab Assistant & Export Report Hub -->
+<div class="w-full rounded-2xl bg-surface-container-low p-space-md shadow-lg flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-tertiary-fixed-dim text-[22px]">smart_toy</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Trợ Lý AI &amp; Báo Cáo STEM</h3>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container flex flex-col gap-2">
+<div class="flex items-center gap-1.5 font-title-md text-caption text-primary">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+<span>Đánh giá kết quả tự động:</span>
+</div>
+<p class="font-body-sm text-caption text-on-surface-variant leading-relaxed">
+              Các vị trí cộng hưởng âm cực đại khớp <span class="text-primary font-bold">98.7%</span> với mô hình sóng dừng ống một đầu kín một đầu hở.
+              <br/><br/>
+<span class="text-tertiary-fixed-dim font-medium">Lưu ý giáo khoa:</span> Cần chú ý sai số hiệu chỉnh miệng ống âm học <span class="font-formula-md text-[11px] text-tertiary">e ≈ 0.6 · R</span> (với bán kính ống R = 2.0 cm, e ≈ 1.2 cm), giải thích vì sao cực đại đầu tiên cách miệng một khoảng nhỏ hơn λ/4.
+            </p>
+</div>
+<!-- Actions -->
+<div class="flex flex-col gap-2">
+<button class="w-full py-2.5 px-space-sm rounded-xl bg-primary-container text-on-primary-fixed font-title-md text-body-sm hover:shadow-[0_0_16px_rgba(0,229,255,0.4)] flex items-center justify-center gap-2 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+<span>Xuất Báo Cáo Thực Hành Chuẩn Bộ GD&amp;ĐT</span>
+</button>
+<div class="grid grid-cols-2 gap-2">
+<button class="py-2 px-space-xs rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-title-md text-caption flex items-center justify-center gap-1.5 transition-all" type="button">
+<span class="material-symbols-outlined text-[16px] text-primary">table_view</span>
+<span>Xuất CSV / Excel</span>
+</button>
+<button class="py-2 px-space-xs rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-title-md text-caption flex items-center justify-center gap-1.5 transition-all" type="button">
+<span class="material-symbols-outlined text-[16px] text-tertiary-fixed-dim">send</span>
+<span>Nộp cho Giáo viên</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Interactive Simulation Controls & Audio Context Demonstration
+  (function () {
+    const rangeFreq = document.getElementById('range-freq');
+    const rangePos = document.getElementById('range-pos');
+    const valFreq = document.getElementById('val-freq');
+    const valPos = document.getElementById('val-pos');
+    const lblFreq = document.getElementById('lbl-f');
+    const sensorCart = document.getElementById('sensor-slider-cart');
+    const selectGas = document.getElementById('select-gas');
+    const valVTheory = document.getElementById('val-v-theory');
+    const btnPlayTone = document.getElementById('btn-play-tone');
+    const toneBtnText = document.getElementById('tone-btn-text');
+
+    let audioCtx = null;
+    let oscillator = null;
+    let isPlaying = false;
+
+    // Handle Frequency Slider
+    if (rangeFreq) {
+      rangeFreq.addEventListener('input', function (e) {
+        const freq = e.target.value;
+        if (valFreq) valFreq.textContent = freq;
+        if (lblFreq) lblFreq.textContent = freq;
+        if (oscillator && isPlaying) {
+          oscillator.frequency.setValueAtTime(freq, audioCtx.currentTime);
+        }
+      });
+    }
+
+    // Handle Mic Cart Position Slider
+    if (rangePos) {
+      rangePos.addEventListener('input', function (e) {
+        const pos = e.target.value;
+        if (valPos) valPos.textContent = parseFloat(pos).toFixed(1);
+        if (sensorCart) {
+          sensorCart.style.left = pos + '%';
+        }
+      });
+    }
+
+    // Handle Gas Medium Change
+    if (selectGas) {
+      selectGas.addEventListener('change', function (e) {
+        const val = e.target.value;
+        let v = '346.0';
+        if (val === 'air_0') v = '331.3';
+        if (val === 'he') v = '965.0';
+        if (val === 'co2') v = '267.0';
+        if (valVTheory) valVTheory.textContent = v;
+      });
+    }
+
+    // Handle Simple Web Audio API Tone Generation
+    if (btnPlayTone) {
+      btnPlayTone.addEventListener('click', function () {
+        if (!isPlaying) {
+          try {
+            const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+            if (!audioCtx) audioCtx = new AudioContextClass();
+            if (audioCtx.state === 'suspended') {
+              audioCtx.resume();
+            }
+            oscillator = audioCtx.createOscillator();
+            const gainNode = audioCtx.createGain();
+            
+            const currentFreq = rangeFreq ? rangeFreq.value : 1000;
+            oscillator.type = 'sine';
+            oscillator.frequency.setValueAtTime(currentFreq, audioCtx.currentTime);
+
+            // Safe soft volume
+            gainNode.gain.setValueAtTime(0.08, audioCtx.currentTime);
+            oscillator.connect(gainNode);
+            gainNode.connect(audioCtx.destination);
+
+            oscillator.start();
+            isPlaying = true;
+            if (toneBtnText) toneBtnText.textContent = 'Dừng Audio';
+            btnPlayTone.classList.add('text-error');
+          } catch (err) {
+            console.warn('Audio Context not available or permitted', err);
+          }
+        } else {
+          if (oscillator) {
+            oscillator.stop();
+            oscillator.disconnect();
+            oscillator = null;
+          }
+          isPlaying = false;
+          if (toneBtnText) toneBtnText.textContent = 'Phát Audio';
+          btnPlayTone.classList.remove('text-error');
+        }
+      });
+    }
+
+    // Mode Switch Feedback
+    const modeButtons = [
+      document.getElementById('btn-mode-hybrid'),
+      document.getElementById('btn-mode-sim'),
+      document.getElementById('btn-mode-sensor')
+    ];
+    modeButtons.forEach(btn => {
+      if (!btn) return;
+      btn.addEventListener('click', function () {
+        modeButtons.forEach(b => {
+          if (!b) return;
+          b.className = 'px-space-sm py-1.5 rounded-md font-title-md text-body-sm text-secondary hover:text-on-surface hover:bg-surface-container-high transition-all';
+        });
+        btn.className = 'px-space-sm py-1.5 rounded-md font-title-md text-body-sm bg-primary-container text-on-primary-fixed shadow-[0_0_12px_rgba(0,229,255,0.3)] transition-all';
+      });
+    });
+
+  })();
+</script></main><footer class="w-full bg-surface-container-lowest text-on-surface-variant"><div class="w-full px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="PhysiX Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX5f9k_6rNVTypSA7getS_K9B8WEDUeiQVzZS3WAJJneSe6xwIJb59dOXAD1-xfOXZiwnTWAN_OfHNaPznHlW7BFCG_tJx0niWaeyyzhcuBUQQgXtAOXDaWw9dxCtSV6OoX7TdYxUtQRRAO7nW50DY2alL9ZPifJ6nkcg8CwO2uQ8s4A0v8uJKxKDeJcr7M4ZK0Pe5LwTykYjqPuM8xqNBjfhRUs7BlGlrgilLe17UUdaUqZbjV1k5MA"/><span class="font-headline-sm text-headline-sm font-bold text-primary">PhysiX</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Nền tảng học tập &amp; mô phỏng tương tác Vật Lý dành cho học sinh THPT theo chuẩn Chương trình Giáo dục Phổ thông 2018.</p><div class="flex items-center gap-space-xs mt-space-xs"><span class="font-label-mono text-label-mono px-space-xs py-0.5 rounded bg-surface-container-high text-primary-container font-semibold">STEM Ready</span><span class="font-label-mono text-label-mono px-space-xs py-0.5 rounded bg-surface-container-high text-secondary">GDPT 2018</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface">Chương trình Chuẩn GDPT</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm"><a class="hover:text-primary transition-colors" data-path="vat-ly-lop-10" href="#">Chuyên đề Vật lý 10 (Chân trời &amp; Cánh diều)</a><a class="hover:text-primary transition-colors" data-path="vat-ly-lop-11" href="#">Chuyên đề Vật lý 11 (Dao động, Sóng, Điện từ)</a><a class="hover:text-primary transition-colors" data-path="vat-ly-lop-12" href="#">Chuyên đề Vật lý 12 (Vật lý Nhiệt, Hạt nhân)</a><a class="hover:text-primary transition-colors" data-path="luyen-thi-thptqg" href="#">Ma trận Đề thi Đánh giá Năng lực &amp; THPTQG</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface">Tài nguyên &amp; Công cụ</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm"><a class="flex items-center gap-1.5 text-primary-container font-medium hover:underline" data-path="so-tay-cong-thuc" href="#"><span class="material-symbols-outlined text-[16px]">download</span><span>Tải Sổ tay Công thức Toàn diện (PDF)</span></a><a class="hover:text-primary transition-colors" data-path="thi-nghiem-ao" href="#">Phòng thí nghiệm Dao động &amp; Quang học ảo</a><a class="hover:text-primary transition-colors" data-path="tra-cuu-hang-so" href="#">Bảng tra cứu Hằng số Vật Lý chuẩn quốc tế</a><a class="hover:text-primary transition-colors" data-path="huong-dan-giai" href="#">Phương pháp giải nhanh Bài toán đồ thị</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface">Hỗ trợ Học thuật</span><p class="font-body-sm text-body-sm text-on-surface-variant">Cộng tác cùng đội ngũ Giáo viên Vật lý các trường THPT Chuyên toàn quốc.</p><div class="flex flex-col gap-1 font-label-mono text-label-mono text-secondary mt-1"><span>Email: support@physix.edu.vn</span><span>Hotline: 1900 6886 (8h00 - 21h00)</span></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm font-caption text-caption text-outline"><p>© 2025 PhysiX Learning Platform. Bản quyền thuộc về Đề án Phát triển Học liệu STEM THPT.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" href="#">Điều khoản sử dụng</a><a class="hover:text-on-surface transition-colors" href="#">Chính sách bảo mật</a><a class="hover:text-on-surface transition-colors" href="#">Góp ý nội dung bài giảng</a></div></div></div></footer></body></html>

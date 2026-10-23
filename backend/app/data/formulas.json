@@ -1,0 +1,812 @@
+[
+  {
+    "id": "density",
+    "grade": 6,
+    "category": "co",
+    "name": "Khối lượng riêng của chất",
+    "intlMath": "\\rho = \\frac{m}{V}",
+    "vnMath": "D = \\frac{m}{V}",
+    "intlVariables": [
+      {
+        "symbol": "\\rho",
+        "unit": "kg/m³",
+        "name": "Khối lượng riêng của chất"
+      },
+      {
+        "symbol": "m",
+        "unit": "kg",
+        "name": "Khối lượng vật"
+      },
+      {
+        "symbol": "V",
+        "unit": "m³",
+        "name": "Thể tích vật"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "D",
+        "unit": "kg/m³",
+        "name": "Khối lượng riêng"
+      },
+      {
+        "symbol": "m",
+        "unit": "kg",
+        "name": "Khối lượng vật"
+      },
+      {
+        "symbol": "V",
+        "unit": "m³",
+        "name": "Thể tích vật"
+      }
+    ],
+    "explanation": "Khối lượng riêng là khối lượng của một mét khối (1 m³) chất đó. Nước nguyên chất có khối lượng riêng 1000 kg/m³.",
+    "latexCode": "\\rho = \\frac{m}{V}",
+    "isCustom": false
+  },
+  {
+    "id": "weight",
+    "grade": 6,
+    "category": "co",
+    "name": "Trọng lượng & Trọng lực",
+    "intlMath": "W = m \\cdot g",
+    "vnMath": "P = 10 \\cdot m",
+    "intlVariables": [
+      {
+        "symbol": "W",
+        "unit": "N",
+        "name": "Trọng lượng của vật"
+      },
+      {
+        "symbol": "m",
+        "unit": "kg",
+        "name": "Khối lượng của vật"
+      },
+      {
+        "symbol": "g",
+        "unit": "N/kg",
+        "name": "Gia tốc trọng trường (9.807 N/kg)"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "P",
+        "unit": "N",
+        "name": "Trọng lượng của vật"
+      },
+      {
+        "symbol": "m",
+        "unit": "kg",
+        "name": "Khối lượng của vật"
+      }
+    ],
+    "explanation": "Trọng lượng là độ lớn lực hút Trái Đất tác dụng lên vật. Theo chuẩn ISO 80000, trọng lượng ký hiệu W (Weight) hoặc F_g.",
+    "latexCode": "W = m \\cdot g",
+    "isCustom": false
+  },
+  {
+    "id": "hooke",
+    "grade": 6,
+    "category": "co",
+    "name": "Độ biến dạng đàn hồi lò xo (Định luật Hooke)",
+    "intlMath": "F = k \\cdot \\Delta l",
+    "vnMath": "F = k \\cdot |l - l_0|",
+    "intlVariables": [
+      {
+        "symbol": "F",
+        "unit": "N",
+        "name": "Lực đàn hồi của lò xo"
+      },
+      {
+        "symbol": "k",
+        "unit": "N/m",
+        "name": "Độ cứng của lò xo"
+      },
+      {
+        "symbol": "\\Delta l",
+        "unit": "m",
+        "name": "Độ biến dạng dãn/nén"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "F",
+        "unit": "N",
+        "name": "Lực đàn hồi"
+      },
+      {
+        "symbol": "k",
+        "unit": "N/m",
+        "name": "Độ cứng lò xo"
+      },
+      {
+        "symbol": "l",
+        "unit": "m",
+        "name": "Chiều dài khi dãn"
+      },
+      {
+        "symbol": "l_0",
+        "unit": "m",
+        "name": "Chiều dài tự nhiên"
+      }
+    ],
+    "explanation": "Độ dãn của lò xo treo thẳng đứng tỉ lệ thuận với khối lượng vật hoặc độ lớn lực kéo tác dụng vào nó.",
+    "latexCode": "F = k \\cdot \\Delta l",
+    "isCustom": false
+  },
+  {
+    "id": "speed",
+    "grade": 7,
+    "category": "co",
+    "name": "Tốc độ chuyển động",
+    "intlMath": "v = \\frac{s}{t}",
+    "vnMath": "v = \\frac{s}{t}",
+    "intlVariables": [
+      {
+        "symbol": "v",
+        "unit": "m/s hoặc km/h",
+        "name": "Tốc độ chuyển động"
+      },
+      {
+        "symbol": "s",
+        "unit": "m hoặc km",
+        "name": "Quãng đường đi được"
+      },
+      {
+        "symbol": "t",
+        "unit": "s hoặc h",
+        "name": "Thời gian đi quãng đường đó"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "v",
+        "unit": "m/s",
+        "name": "Tốc độ chuyển động"
+      },
+      {
+        "symbol": "s",
+        "unit": "m",
+        "name": "Quãng đường đi được"
+      },
+      {
+        "symbol": "t",
+        "unit": "s",
+        "name": "Thời gian đi"
+      }
+    ],
+    "explanation": "Tốc độ là đại lượng đặc trưng cho sự nhanh hay chậm của chuyển động, đo bằng thương số quãng đường và thời gian.",
+    "latexCode": "v = \\frac{s}{t}",
+    "isCustom": false
+  },
+  {
+    "id": "frequency",
+    "grade": 7,
+    "category": "am",
+    "name": "Tần số dao động sóng âm",
+    "intlMath": "f = \\frac{N}{t} = \\frac{1}{T}",
+    "vnMath": "f = \\frac{n}{t}",
+    "intlVariables": [
+      {
+        "symbol": "f",
+        "unit": "Hz",
+        "name": "Tần số dao động"
+      },
+      {
+        "symbol": "N",
+        "unit": "dao động",
+        "name": "Số dao động thực hiện được"
+      },
+      {
+        "symbol": "t",
+        "unit": "s",
+        "name": "Thời gian thực hiện dao động"
+      },
+      {
+        "symbol": "T",
+        "unit": "s",
+        "name": "Chu kỳ dao động (Period)"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "f",
+        "unit": "Hz",
+        "name": "Tần số âm"
+      },
+      {
+        "symbol": "n",
+        "unit": "dao động",
+        "name": "Số dao động"
+      },
+      {
+        "symbol": "t",
+        "unit": "s",
+        "name": "Thời gian"
+      }
+    ],
+    "explanation": "Số dao động trong 1 giây gọi là tần số. Tần số càng lớn âm phát ra càng cao (bổng); tần số nhỏ âm càng trầm.",
+    "latexCode": "f = \\frac{N}{t}",
+    "isCustom": false
+  },
+  {
+    "id": "reflection",
+    "grade": 7,
+    "category": "quang",
+    "name": "Định luật phản xạ ánh sáng",
+    "intlMath": "i = i' \\quad (\\theta_{\\text{r}} = \\theta_{\\text{i}})",
+    "vnMath": "i' = i",
+    "intlVariables": [
+      {
+        "symbol": "i",
+        "unit": "độ (°)",
+        "name": "Góc tới (tạo bởi tia tới và pháp tuyến)"
+      },
+      {
+        "symbol": "i'",
+        "unit": "độ (°)",
+        "name": "Góc phản xạ (tạo bởi tia phản xạ và pháp tuyến)"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "i",
+        "unit": "độ (°)",
+        "name": "Góc tới"
+      },
+      {
+        "symbol": "i'",
+        "unit": "độ (°)",
+        "name": "Góc phản xạ"
+      }
+    ],
+    "explanation": "Tia phản xạ nằm trong mặt phẳng tới và ở bên kia pháp tuyến so với tia tới; Góc phản xạ luôn bằng góc tới.",
+    "latexCode": "i' = i",
+    "isCustom": false
+  },
+  {
+    "id": "pressure",
+    "grade": 8,
+    "category": "co",
+    "name": "Áp suất tác dụng lên mặt bị ép",
+    "intlMath": "p = \\frac{F}{A}",
+    "vnMath": "p = \\frac{F}{S}",
+    "intlVariables": [
+      {
+        "symbol": "p",
+        "unit": "Pa (N/m²)",
+        "name": "Áp suất (Pressure)"
+      },
+      {
+        "symbol": "F",
+        "unit": "N",
+        "name": "Áp lực tác dụng vuông góc lên mặt ép"
+      },
+      {
+        "symbol": "A",
+        "unit": "m²",
+        "name": "Diện tích mặt bị ép (Area, ISO 80000)"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "p",
+        "unit": "N/m²",
+        "name": "Áp suất"
+      },
+      {
+        "symbol": "F",
+        "unit": "N",
+        "name": "Áp lực"
+      },
+      {
+        "symbol": "S",
+        "unit": "m²",
+        "name": "Diện tích mặt bị ép"
+      }
+    ],
+    "explanation": "Áp suất là độ lớn áp lực trên một đơn vị diện tích bị ép. 1 Pa = 1 N/m².",
+    "latexCode": "p = \\frac{F}{A}",
+    "isCustom": false
+  },
+  {
+    "id": "liquid_pressure",
+    "grade": 8,
+    "category": "co",
+    "name": "Áp suất thủy tĩnh trong lòng chất lỏng",
+    "intlMath": "p = p_0 + \\rho \\cdot g \\cdot h",
+    "vnMath": "p = d \\cdot h",
+    "intlVariables": [
+      {
+        "symbol": "p",
+        "unit": "Pa",
+        "name": "Áp suất chất lỏng ở độ sâu h"
+      },
+      {
+        "symbol": "\\rho",
+        "unit": "kg/m³",
+        "name": "Khối lượng riêng của chất lỏng"
+      },
+      {
+        "symbol": "g",
+        "unit": "N/kg",
+        "name": "Gia tốc trọng trường"
+      },
+      {
+        "symbol": "h",
+        "unit": "m",
+        "name": "Độ sâu tính từ mặt thoáng chất lỏng"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "p",
+        "unit": "Pa",
+        "name": "Áp suất đáy/thành bình"
+      },
+      {
+        "symbol": "d",
+        "unit": "N/m³",
+        "name": "Trọng lượng riêng của chất lỏng"
+      },
+      {
+        "symbol": "h",
+        "unit": "m",
+        "name": "Độ sâu so với mặt thoáng"
+      }
+    ],
+    "explanation": "Chất lỏng gây áp suất theo mọi hướng. Áp suất tại một điểm càng lớn khi độ sâu h càng tăng.",
+    "latexCode": "p = \\rho \\cdot g \\cdot h",
+    "isCustom": false
+  },
+  {
+    "id": "buoyancy",
+    "grade": 8,
+    "category": "co",
+    "name": "Lực đẩy Ác-si-mét (Archimedes' Principle)",
+    "intlMath": "F_{\\text{b}} = \\rho \\cdot g \\cdot V_{\\text{disp}}",
+    "vnMath": "F_A = d \\cdot V",
+    "intlVariables": [
+      {
+        "symbol": "F_{\\text{b}}",
+        "unit": "N",
+        "name": "Lực đẩy Ác-si-mét (Buoyant force, ISO 80000)"
+      },
+      {
+        "symbol": "\\rho",
+        "unit": "kg/m³",
+        "name": "Khối lượng riêng chất lỏng"
+      },
+      {
+        "symbol": "g",
+        "unit": "N/kg",
+        "name": "Gia tốc trọng trường (9.807 N/kg)"
+      },
+      {
+        "symbol": "V_{\\text{disp}}",
+        "unit": "m³",
+        "name": "Thể tích phần chất lỏng bị chiếm chỗ"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "F_A",
+        "unit": "N",
+        "name": "Lực đẩy Ác-si-mét"
+      },
+      {
+        "symbol": "d",
+        "unit": "N/m³",
+        "name": "Trọng lượng riêng chất lỏng"
+      },
+      {
+        "symbol": "V",
+        "unit": "m³",
+        "name": "Thể tích phần chìm trong chất lỏng"
+      }
+    ],
+    "explanation": "Mọi vật chìm trong chất lỏng đều chịu một lực nâng hướng thẳng đứng từ dưới lên có độ lớn bằng trọng lượng khối chất lỏng bị vật chiếm chỗ.",
+    "latexCode": "F_{\\text{b}} = \\rho \\cdot g \\cdot V_{\\text{disp}}",
+    "isCustom": false
+  },
+  {
+    "id": "lever",
+    "grade": 8,
+    "category": "co",
+    "name": "Nguyên lý mômen lực & Cân bằng đòn bẩy",
+    "intlMath": "\\sum M = 0 \\iff F_1 \\cdot d_1 = F_2 \\cdot d_2",
+    "vnMath": "F_1 \\cdot d_1 = F_2 \\cdot d_2",
+    "intlVariables": [
+      {
+        "symbol": "M",
+        "unit": "N·m",
+        "name": "Mômen lực (M = F · d)"
+      },
+      {
+        "symbol": "F_1, F_2",
+        "unit": "N",
+        "name": "Các lực tác dụng ở hai đầu đòn bẩy"
+      },
+      {
+        "symbol": "d_1, d_2",
+        "unit": "m",
+        "name": "Cánh tay đòn (từ trục quay đến giá lực)"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "F_1, F_2",
+        "unit": "N",
+        "name": "Lực tác dụng ở hai phía điểm tựa"
+      },
+      {
+        "symbol": "d_1, d_2",
+        "unit": "m",
+        "name": "Cánh tay đòn của các lực"
+      }
+    ],
+    "explanation": "Đòn bẩy cân bằng khi tổng mômen làm quay theo chiều kim đồng hồ bằng tổng mômen ngược chiều. Lợi thế cơ học MA = d1/d2.",
+    "latexCode": "F_1 \\cdot d_1 = F_2 \\cdot d_2",
+    "isCustom": false
+  },
+  {
+    "id": "energy",
+    "grade": 8,
+    "category": "co",
+    "name": "Cơ năng: Động năng & Thế năng trọng trường",
+    "intlMath": "E = E_{\\text{k}} + E_{\\text{p}} = \\frac{1}{2}m v^2 + m g h",
+    "vnMath": "W = W_đ + W_t = \\frac{1}{2}m v^2 + 10 m h",
+    "intlVariables": [
+      {
+        "symbol": "E",
+        "unit": "J",
+        "name": "Cơ năng toàn phần"
+      },
+      {
+        "symbol": "E_{\\text{k}}",
+        "unit": "J",
+        "name": "Động năng của vật"
+      },
+      {
+        "symbol": "E_{\\text{p}}",
+        "unit": "J",
+        "name": "Thế năng trọng trường"
+      },
+      {
+        "symbol": "m",
+        "unit": "kg",
+        "name": "Khối lượng"
+      },
+      {
+        "symbol": "v",
+        "unit": "m/s",
+        "name": "Vận tốc"
+      },
+      {
+        "symbol": "h",
+        "unit": "m",
+        "name": "Độ cao so với mốc"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "W",
+        "unit": "J",
+        "name": "Cơ năng toàn phần"
+      },
+      {
+        "symbol": "W_đ",
+        "unit": "J",
+        "name": "Động năng"
+      },
+      {
+        "symbol": "W_t",
+        "unit": "J",
+        "name": "Thế năng"
+      }
+    ],
+    "explanation": "Cơ năng bảo toàn khi bỏ qua ma sát và lực cản: động năng và thế năng có thể chuyển hóa qua lại lẫn nhau.",
+    "latexCode": "E = \\frac{1}{2}mv^2 + mgh",
+    "isCustom": false
+  },
+  {
+    "id": "ohm_law",
+    "grade": 9,
+    "category": "dien",
+    "name": "Định luật Ôm cho đoạn mạch",
+    "intlMath": "I = \\frac{U}{R} \\iff U = I \\cdot R",
+    "vnMath": "I = \\frac{U}{R}",
+    "intlVariables": [
+      {
+        "symbol": "I",
+        "unit": "A",
+        "name": "Cường độ dòng điện"
+      },
+      {
+        "symbol": "U",
+        "unit": "V",
+        "name": "Hiệu điện thế giữa hai đầu đoạn mạch"
+      },
+      {
+        "symbol": "R",
+        "unit": "Ω",
+        "name": "Điện trở của đoạn mạch"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "I",
+        "unit": "A",
+        "name": "Cường độ dòng điện"
+      },
+      {
+        "symbol": "U",
+        "unit": "V",
+        "name": "Hiệu điện thế"
+      },
+      {
+        "symbol": "R",
+        "unit": "Ω",
+        "name": "Điện trở"
+      }
+    ],
+    "explanation": "Cường độ dòng điện chạy qua dây dẫn tỉ lệ thuận với hiệu điện thế giữa hai đầu dây và tỉ lệ nghịch với điện trở của dây.",
+    "latexCode": "I = \\frac{U}{R}",
+    "isCustom": false
+  },
+  {
+    "id": "series_circuit",
+    "grade": 9,
+    "category": "dien",
+    "name": "Điện trở tương đương mạch nối tiếp",
+    "intlMath": "R_{\\text{eq}} = R_1 + R_2, \\quad I = I_1 = I_2, \\quad U = U_1 + U_2",
+    "vnMath": "R_{tđ} = R_1 + R_2",
+    "intlVariables": [
+      {
+        "symbol": "R_{\\text{eq}}",
+        "unit": "Ω",
+        "name": "Điện trở tương đương (Equivalent Resistance)"
+      },
+      {
+        "symbol": "R_1, R_2",
+        "unit": "Ω",
+        "name": "Các điện trở thành phần"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "R_{tđ}",
+        "unit": "Ω",
+        "name": "Điện trở tương đương"
+      },
+      {
+        "symbol": "R_1, R_2",
+        "unit": "Ω",
+        "name": "Các điện trở"
+      }
+    ],
+    "explanation": "Đoạn mạch mắc nối tiếp có dòng điện bằng nhau tại mọi điểm, hiệu điện thế tổng bằng tổng các hiệu điện thế thành phần.",
+    "latexCode": "R_{\\text{eq}} = R_1 + R_2",
+    "isCustom": false
+  },
+  {
+    "id": "parallel_circuit",
+    "grade": 9,
+    "category": "dien",
+    "name": "Điện trở tương đương mạch song song",
+    "intlMath": "\\frac{1}{R_{\\text{eq}}} = \\frac{1}{R_1} + \\frac{1}{R_2} \\iff R_{\\text{eq}} = \\frac{R_1 \\cdot R_2}{R_1 + R_2}",
+    "vnMath": "\\frac{1}{R_{tđ}} = \\frac{1}{R_1} + \\frac{1}{R_2}",
+    "intlVariables": [
+      {
+        "symbol": "R_{\\text{eq}}",
+        "unit": "Ω",
+        "name": "Điện trở tương đương"
+      },
+      {
+        "symbol": "U",
+        "unit": "V",
+        "name": "Hiệu điện thế mạch: U = U1 = U2"
+      },
+      {
+        "symbol": "I",
+        "unit": "A",
+        "name": "Dòng điện mạch chính: I = I1 + I2"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "R_{tđ}",
+        "unit": "Ω",
+        "name": "Điện trở tương đương"
+      }
+    ],
+    "explanation": "Đoạn mạch song song có cùng hiệu điện thế, cường độ dòng điện mạch chính bằng tổng cường độ dòng điện các nhánh rẽ.",
+    "latexCode": "R_{\\text{eq}} = \\frac{R_1 \\cdot R_2}{R_1 + R_2}",
+    "isCustom": false
+  },
+  {
+    "id": "electric_power",
+    "grade": 9,
+    "category": "dien",
+    "name": "Công suất điện & Định luật Joule-Lenz",
+    "intlMath": "P = U \\cdot I = I^2 \\cdot R = \\frac{U^2}{R}, \\quad Q = I^2 \\cdot R \\cdot t",
+    "vnMath": "P = U \\cdot I, \\quad Q = I^2 \\cdot R \\cdot t",
+    "intlVariables": [
+      {
+        "symbol": "P",
+        "unit": "W",
+        "name": "Công suất điện tiêu thụ"
+      },
+      {
+        "symbol": "Q",
+        "unit": "J",
+        "name": "Nhiệt lượng tỏa ra (Joule's heat)"
+      },
+      {
+        "symbol": "t",
+        "unit": "s",
+        "name": "Thời gian dòng điện chạy qua"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "P",
+        "unit": "W",
+        "name": "Công suất điện"
+      },
+      {
+        "symbol": "Q",
+        "unit": "J",
+        "name": "Nhiệt lượng tỏa ra trên dây"
+      },
+      {
+        "symbol": "t",
+        "unit": "s",
+        "name": "Thời gian"
+      }
+    ],
+    "explanation": "Công suất điện biểu thị tốc độ tiêu thụ điện năng. Định luật Joule-Lenz tính nhiệt lượng tỏa ra trên vật dẫn thuần trở.",
+    "latexCode": "P = U \\cdot I = I^2 R = \\frac{U^2}{R}",
+    "isCustom": false
+  },
+  {
+    "id": "wire_resistance",
+    "grade": 9,
+    "category": "dien",
+    "name": "Điện trở của dây dẫn",
+    "intlMath": "R = \\rho \\cdot \\frac{l}{A}",
+    "vnMath": "R = \\rho \\cdot \\frac{l}{S}",
+    "intlVariables": [
+      {
+        "symbol": "R",
+        "unit": "Ω",
+        "name": "Điện trở của dây dẫn"
+      },
+      {
+        "symbol": "\\rho",
+        "unit": "Ω·m",
+        "name": "Điện trở suất của vật liệu"
+      },
+      {
+        "symbol": "l",
+        "unit": "m",
+        "name": "Chiều dài dây dẫn"
+      },
+      {
+        "symbol": "A",
+        "unit": "m²",
+        "name": "Tiết diện ngang của dây (Area)"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "R",
+        "unit": "Ω",
+        "name": "Điện trở dây dẫn"
+      },
+      {
+        "symbol": "\\rho",
+        "unit": "Ω·m",
+        "name": "Điện trở suất"
+      },
+      {
+        "symbol": "l",
+        "unit": "m",
+        "name": "Chiều dài dây"
+      },
+      {
+        "symbol": "S",
+        "unit": "m²",
+        "name": "Tiết diện dây"
+      }
+    ],
+    "explanation": "Điện trở tỉ lệ thuận với chiều dài l, tỉ lệ nghịch với tiết diện ngang A (theo chuẩn ISO dùng A thay vì S).",
+    "latexCode": "R = \\rho \\cdot \\frac{l}{A}",
+    "isCustom": false
+  },
+  {
+    "id": "thin_lens",
+    "grade": 9,
+    "category": "quang",
+    "name": "Phương trình thấu kính mỏng (Thin Lens Equation)",
+    "intlMath": "\\frac{1}{f} = \\frac{1}{d_{\\text{o}}} + \\frac{1}{d_{\\text{i}}} \\iff d_{\\text{i}} = \\frac{d_{\\text{o}} \\cdot f}{d_{\\text{o}} - f}",
+    "vnMath": "\\frac{1}{f} = \\frac{1}{d} + \\frac{1}{d'}",
+    "intlVariables": [
+      {
+        "symbol": "f",
+        "unit": "cm hoặc m",
+        "name": "Tiêu cự thấu kính (hội tụ: f > 0)"
+      },
+      {
+        "symbol": "d_{\\text{o}}",
+        "unit": "cm hoặc m",
+        "name": "Khoảng cách từ vật đến quang tâm O"
+      },
+      {
+        "symbol": "d_{\\text{i}}",
+        "unit": "cm hoặc m",
+        "name": "Khoảng cách từ ảnh đến quang tâm O"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "f",
+        "unit": "cm hoặc m",
+        "name": "Tiêu cự thấu kính"
+      },
+      {
+        "symbol": "d",
+        "unit": "cm hoặc m",
+        "name": "Khoảng cách từ vật đến thấu kính"
+      },
+      {
+        "symbol": "d'",
+        "unit": "cm hoặc m",
+        "name": "Khoảng cách từ ảnh đến thấu kính"
+      }
+    ],
+    "explanation": "Quy ước: Thấu kính hội tụ f > 0. Vật thật d_o > 0. Ảnh thật d_i > 0 (ngược chiều, hứng được trên màn); Ảnh ảo d_i < 0 (cùng chiều).",
+    "latexCode": "\\frac{1}{f} = \\frac{1}{d_{\\text{o}}} + \\frac{1}{d_{\\text{i}}}",
+    "isCustom": false
+  },
+  {
+    "id": "magnification",
+    "grade": 9,
+    "category": "quang",
+    "name": "Độ phóng đại tuyến tính & Độ tụ",
+    "intlMath": "m = -\\frac{d_{\\text{i}}}{d_{\\text{o}}} = \\frac{h_{\\text{i}}}{h_{\\text{o}}}, \\quad D = \\frac{1}{f}",
+    "vnMath": "k = -\\frac{d'}{d}, \\quad D = \\frac{1}{f}",
+    "intlVariables": [
+      {
+        "symbol": "m",
+        "unit": "không thứ nguyên",
+        "name": "Độ phóng đại tuyến tính"
+      },
+      {
+        "symbol": "h_{\\text{i}}, h_{\\text{o}}",
+        "unit": "cm",
+        "name": "Chiều cao của ảnh và của vật"
+      },
+      {
+        "symbol": "D",
+        "unit": "dp (diopter)",
+        "name": "Độ tụ của thấu kính (với f tính bằng mét)"
+      }
+    ],
+    "vnVariables": [
+      {
+        "symbol": "k",
+        "unit": "hệ số",
+        "name": "Hệ số phóng đại ảnh"
+      },
+      {
+        "symbol": "D",
+        "unit": "dp",
+        "name": "Độ tụ thấu kính"
+      }
+    ],
+    "explanation": "|m| > 1: ảnh lớn hơn vật; |m| < 1: ảnh nhỏ hơn vật; m < 0: ảnh ngược chiều vật (ảnh thật); m > 0: ảnh cùng chiều vật (ảnh ảo).",
+    "latexCode": "m = -\\frac{d_{\\text{i}}}{d_{\\text{o}}} = \\frac{h_{\\text{i}}}{h_{\\text{o}}}",
+    "isCustom": false
+  }
+]
